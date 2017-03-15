@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>Example Slides</title>
+<title>OneOps Administrator Training: Level 1 - Beginner</title>
 <link href="./reveal.js-3.3.0/css/reveal.css" rel="stylesheet" />
 <link href="./reveal.js-3.3.0/lib/css/zenburn.css" rel="stylesheet" />
 <link href="./reveal.js-3.3.0/css/theme/walmart-oneops.css" rel="stylesheet" />
@@ -15,18 +15,11 @@
 <body>
  <div class="reveal">
   <div class="slides">
-    <!-- slide 2 -->
-    <section>
-     <h2>OneOps Training</h2>
-     <ul>
-      <li><a href="./training-videos.html">Training Video Slides</a></li>
-      <li><a href="./user-1-beginner.html">User Training:  Level 1 - Beginner</a></li>
-      <li><a href="./user-2-advanced.html">User Training:  Level 2 - Advanced</a></li>
-      <li><a href="./admin-1-beginner.html">Administrator Training:  Level 1 - Beginner</a></li>
-      <li><a href="./admin-2-advanced.html">Administrator Training:  Level 2 - Advanced</a></li>
-      <li><a href="./developer-1-beginner.html">Developer Training:  Level 1 - Beginner</a></li>
-     </ul>
-    </section>
+    <section data-markdown="./includes/admin-1-beginner.md" 
+             data-separator="^\n\n\n" 
+             data-separator-vertical="^\n\n" 
+             data-separator-notes="^Note:" 
+             data-charset="iso-8859-15"></section>
    </div>
   </div>
   <script src="./reveal.js-3.3.0/lib/js/head.min.js"></script>
@@ -42,7 +35,9 @@
       margin: 0.1,
       minScale: 0.2,
       maxScale: 1.5,
-
+      
+      progress: false,
+      
       // Optional libraries used to extend on reveal.js
       dependencies : [ 
         { src : './reveal.js-3.3.0/lib/js/classList.js',
@@ -57,7 +52,7 @@
         { src : './reveal.js-3.3.0/plugin/zoom-js/zoom.js',
           async : true,
           condition : function() { return !!document.body.classList; }
-        }, 
+        },
         { src : './reveal.js-3.3.0/plugin/notes/notes.js',
           async : true,
           condition : function() { return !!document.body.classList; }
@@ -65,36 +60,5 @@
       ]
     });
   </script>
-</body>
-</html>
-
-
-
-
-
-
-
-
-
-
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>OneOps Training</title>
-</head>
-<body>
-
-<h1>OneOps Training</h1>
-
-<p>A number of slides decks used for OneOps training classes and training videos:</p>
-
-<ul>
-  <li><a href="./oneops-101.html">OneOps 101</a></li>
-  <li><a href="./oneops-aces-overview.html">OneOps Aces Overview</a></li>
-  <li><a href="./faq.html">FAQ</a></li>
-</ul>
-
-Check out the <a href="./example.html">example slide deck</a> to see how to create a new one.
 </body>
 </html>
