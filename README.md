@@ -22,6 +22,9 @@ All content is ideally kept in markdown files in the `includes` folder with the 
 - other slide titles are marked up with level two title `## Title`
 - speaker notes follow after `Note:`
 
+You can include one or more markdown files in the main html page for each slideshow in the project
+root folder. Most decks just include one for now.
+
 More information:
 
 - example.html for options to write content with HTML, embedded markdown and external markdown from include folder
