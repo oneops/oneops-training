@@ -3,7 +3,7 @@
 Level 1 - Beginner
 
 
-# Introduction
+## Introduction
 
 - 3h with breaks
 - instructor demo led
@@ -12,11 +12,107 @@ Level 1 - Beginner
 - ask questions whenever on topic 
 - dedicated questions slot before each break
 
+Note: and this is an speaker note.. 
+
 
 
 # Motivation
 
+
 ## Baremetal/VM vs Cloud
 
+tbd
 
+
+
+# Introducing OneOps
+
+
+## Logging In
+
+
+## User Interface
+
+header, left bar
+
+# Getting Started aka Design
+
+
+## Design
+
+tbd
+
+
+## platform
+
+tbd
+
+
+## component
+
+tbd
+
+
+
+# Moving aka Transition
+
+
+## Cloud Concept 
+ 
+tbd
+
+
+
+
+# In Business aka Operation
+
+
+## Release
+
+getting out there
+
+
+## Component Instances
+
+whats there now
+
+
+## Compute
+
+- IP number
+- hostname
+
+
+
+
+
+
+# At Home in OneOps
+
+towards efficient usage
+
+
+## User Interface Redux
+
+- Navigation bar 
+- Favorites
+- Search
+- Keyboard shortcuts
+
+
+##  Notifications
+
+owner emails
+
+watching
+
+
+## FQDN
+
+tbd
+
+
+## LB
+
+tbd
 
