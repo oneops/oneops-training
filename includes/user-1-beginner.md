@@ -92,16 +92,71 @@ Let's get started!
 > Why use OneOps?
 
 
-## Baremetal/VM vs Cloud
+## Baremetal/VM
 
-tbd
+- Sized for largest load
+- Not dynamic (enough) 
+
+And hence not competitive in terms of price.
+
+## Cloud to the Rescue
+
+What do you mean by _Cloud_ though?
+
+
+## 5 Essential Cloud Characteristics
+
+- On-demand self-service
+- Broad network access
+- Resource pooling
+- Rapid elasticity
+- Measured service
+
+from NIST http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf
+
+
+## 3 Cloud Service Delivery Methods
+
+- Software as a Service _SaaS_: Consume the cloud
+- Platform as a Service _PaaS_: Leverage the cloud
+- Infrastructure as a Service _IaaS_: Be a cloud
+
+
+## Deployment Methods
+
+- Private cloud
+- Public cloud
+- Mixed
+
+
+## Which Cloud? 
+
+- Each cloud platform introduces lock in
+- No cloud is available globally
+
+
+## OneOps
+
+Abstracts your application from a specific cloud:
+
+Its the ulitmate PaaS!
+
+
+
+## Questions? 
 
 
 
 # Introducing OneOps
 
+> tbd
 
+With OneOps, your design becomes much more than a simple template. It's a continually maintained dataset where the notion of change is always recognized. In fact, OneOps was created from the ground up to manage the issues that arise with continuous change. In addition, OneOps automatically scales and repairs your application, to ensure high availability and optimal utilization of your cloud infrastructure.
+ 
+ 
 ## Logging In
+
+tbd
 
 
 ## User Interface
@@ -112,12 +167,16 @@ header, left bar
 
 # Getting Started aka Design
 
-tbd
+> tbd
 
 
 ## Design
 
-tbd
+- Define your application workload based on your architectural and application requirements.
+- Visually assemble your application
+- Select from a library of platform packs
+- Fine-tune components inside each platform
+- Modify your design with version control
 
 
 ## platform/pack/circuit
@@ -133,8 +192,16 @@ tbd
 
 # Moving aka Transition
 
-tbd
+> Where to 
 
+
+## Transition
+
+- Provision environments by mapping the design output against operational requirements.
+- Create and customize multiple environments
+- Specify availability requirements
+- Bind to your cloud provider of choice
+- Deploy with effortless automation
 
 ## Cloud Concept 
  
@@ -145,6 +212,17 @@ tbd
 
 # In Business aka Operation
 
+> its running now
+
+
+## Operations
+
+- Monitor and control your environments to maintain the required operational levels.
+- Monitor the health of your application
+- View configuration, metrics and logs
+- Enable auto-repair and auto-scale
+- Perform manual control actions
+ 
 
 ## Release
 
@@ -194,4 +272,3 @@ tbd
 ## LB
 
 tbd
-
