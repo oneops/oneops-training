@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Example Slides</title>
+<link href="./reveal.js-3.3.0/css/reveal.css" rel="stylesheet" />
+<link href="./reveal.js-3.3.0/lib/css/zenburn.css" rel="stylesheet" />
+<link href="./reveal.js-3.3.0/css/theme/walmart-oneops.css" rel="stylesheet" />
+<script>
+  document.write('<link rel="stylesheet" href="./reveal.js-3.3.0/css/print/'
+      + (window.location.search.match(/print-pdf/gi) ? 'pdf' : 'paper')
+      + '.css" type="text/css" media="print">');
+</script>
+</head>
+<body>
+ <div class="reveal">
+  <div class="slides">
+    <!-- slide 1 -->
+    <section data-markdown>
+      <script type="text/template">
+            ## Markdown example
+            A paragraph with some text and a [link]().
+      </script>
+    </section>
+
+    <!-- slide 2 -->
+    <section>
+     <h2>HTML example</h2>
+     <p>
+      A paragraph with some text and a <a href="">link</a>.
+     </p>
+    </section>
+
+    <!-- slide 3 -->
+    <section data-markdown="./includes/example.md" 
+             data-separator="^\n\n\n" 
+             data-separator-vertical="^\n\n" 
+             data-separator-notes="^Note:" 
+             data-charset="iso-8859-15"></section>
+
+    <!-- slide 4 -->
+    <section>
+     <!-- slide a -->
+     <section data-markdown>
+      <script type="text/template">
+              ## Nested slide examples
+            
+              This is an example of how to do nested slides
+            </script>
+     </section>
+     <!-- slide b -->
+     <section data-markdown>
+      <script type="text/template">
+              ## This slide has notes
+            
+              This is an example of how to include presenter notes. Press `s` to see them... 
+              <aside class="notes">
+                * Again to keep this class as efficient as possible, we've focused on a specific set of technologies and platforms.
+              </aside>
+            </script>
+     </section>
+    </section>
+
+    <!-- slide 5 -->
+    <section data-markdown>
+     <script type="text/template">
+            ## Look at that!
+
+            ![This is the alt text](images/sunset.jpg)
+          </script>
+    </section>
+
+    <!-- slide 6 -->
+    <section data-markdown>
+     <script type="text/template">
+            ## Example of a slide with bullets
+
+            * Point number one
+            * Point number two
+            * Point number three
+          </script>
+    </section>
+
+   </div>
+  </div>
+  <script src="./reveal.js-3.3.0/lib/js/head.min.js"></script>
+ <script src="./reveal.js-3.3.0/js/reveal.js"></script>
+ <script>
+    // See https://github.com/hakimel/reveal.js#configuration for a full list of configuration options
+    Reveal.initialize({
+      width: '100%',
+      height: '100%',
+      // 720p as used for videos
+      //width : 1280,
+      //height : 720,
+      margin: 0.1,
+      minScale: 0.2,
+      maxScale: 1.5,
+
+      // Optional libraries used to extend on reveal.js
+      dependencies : [ 
+        { src : './reveal.js-3.3.0/lib/js/classList.js',
+          condition : function() { return !document.body.classList; }
+        }, 
+        { src : './reveal.js-3.3.0/plugin/markdown/marked.js',
+          condition : function() { return !!document.querySelector('[data-markdown]'); }
+        }, 
+        { src : './reveal.js-3.3.0/plugin/markdown/markdown.js',
+         condition : function() { return !!document.querySelector('[data-markdown]'); }
+        },
+        { src : './reveal.js-3.3.0/plugin/zoom-js/zoom.js',
+          async : true,
+          condition : function() { return !!document.body.classList; }
+        }, 
+        { src : './reveal.js-3.3.0/plugin/notes/notes.js',
+          async : true,
+          condition : function() { return !!document.body.classList; }
+        } 
+      ]
+    });
+  </script>
+</body>
+</html>
