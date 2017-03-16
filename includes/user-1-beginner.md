@@ -81,9 +81,9 @@ In this class we are going to:
 We have time for questions, but you can also ask more later. <!-- .element: class="fragment" -->
 
 
-## And now...
+## Questions? 
 
-Let's get started!
+Ask now, before we jump to the next section.
 
 
 
@@ -142,8 +142,9 @@ Abstracts your application from a specific cloud:
 Its the ulitmate PaaS!
 
 
-
 ## Questions? 
+
+Ask now, before we jump to the next section.
 
 
 
@@ -162,6 +163,11 @@ tbd
 ## User Interface
 
 header, left bar
+
+
+## Questions? 
+
+Ask now, before we jump to the next section.
 
 
 
@@ -189,6 +195,11 @@ tbd
 tbd
 
 
+## Questions? 
+
+Ask now, before we jump to the next section.
+
+
 
 # Moving aka Transition
 
@@ -207,6 +218,10 @@ tbd
  
 tbd
 
+
+## Questions? 
+
+Ask now, before we jump to the next section.
 
 
 
@@ -240,13 +255,15 @@ whats there now
 - hostname
 
 
+## Questions? 
 
+Ask now, before we jump to the next section.
 
 
 
 # At Home in OneOps
 
-towards efficient usage
+> Moving towards advanced usage
 
 
 ## User Interface Redux
@@ -272,3 +289,80 @@ tbd
 ## LB
 
 tbd
+
+
+## Attachments
+
+tbd
+
+
+## Repeated Deployments
+
+Design and envirnment changes
+
+
+## Troubleshooting
+
+Reading logs, .. 
+
+
+## Questions? 
+
+Ask now, before we jump to the next section.
+
+
+
+## TBD
+
+What is Oneops
+Application Lifecycle Management Tool.
+With OneOps, your design becomes much more than a simple template.
+It automatically scales and repairs your application, to ensure high availability and optimal utilization of your cloud infrastructure1
+Phase
+design
+transition
+operations
+Design (Re-useability)
+Define your application workload based on your architectural and application requirements.
+Visually assemble your application
+Select from a library of platform packs
+Fine-tune components inside each platform
+Modify your design with version control
+ 
+Transition
+Provision environments by mapping the design output against operational requirements.
+Create and customize multiple environments
+Specify availability requirements
+Bind to your cloud provider of choice
+Deploy with effortless automation
+Operations
+Monitor and control your environments to maintain the required operational levels.
+Monitor the health of your application
+View configuration, metrics and logs
+Enable autorepair and autoscale
+Perform manual control actions
+
+What is OneOps?
+OneOps enables continuous lifecycle management of applications on any cloud-based infrastructure. It automates and accelerates many processes related to environment management, application deployment and the monitoring of datacenter operations.
+Why Use OneOps?
+•No More AER’s
+•VM Provisioning happens on-the-fly
+•Create as many Environments as required without waiting for months
+•Support multiple application types
+•Auto-scale and Auto-repair
+•Set custom monitors
+•View Logs
+•Review CPU, Memory, Load, Disk usage reports
+•View VM usage report
+
+  • How do I use it?
+  – Design
+  • Packs, Platforms, Components
+  – Transition
+  • Environments, Redundant, Multi-Cloud, Autoscale
+  – Operations
+  • Monitoring, Procedures
+  – Administration
+  • Clouds, Teams, Notifications, API/CLI
+  • Questions
+ 
