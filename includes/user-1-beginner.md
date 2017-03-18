@@ -131,7 +131,8 @@ from NIST http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-1
 
 ## Which Cloud? 
 
-- Each cloud platform introduces lock in
+- Each cloud platform introduces lock-in
+- Specific API and tools
 - No cloud is available globally
 
 
@@ -139,7 +140,9 @@ from NIST http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-1
 
 Abstracts your application from a specific cloud:
 
-Its the ulitmate PaaS!
+OneOps is the ultimate PaaS!
+
+Design your application once and run and manage in any cloud.
 
 
 ## Questions? 
@@ -155,6 +158,29 @@ Ask now, before we jump to the next section.
 With OneOps, your design becomes much more than a simple template. It's a continually maintained dataset where the notion of change is always recognized. In fact, OneOps was created from the ground up to manage the issues that arise with continuous change. In addition, OneOps automatically scales and repairs your application, to ensure high availability and optimal utilization of your cloud infrastructure.
  
  
+## User
+
+Create and manage cloud applications _with OneOps_.
+
+Starting with the current training and [http://oneops.com/user](http://oneops.com/user)
+
+
+## Administrator
+
+Install and manage _OneOps itself_.
+
+Check out [http://oneops.com/admin](http://oneops.com/admin)
+
+
+## Developer
+
+Modify OneOps itself or used components.
+
+Integrate with other tools.
+
+Check out [http://oneops.com/developer](http://oneops.com/developer)
+
+
 ## Logging In
 
 tbd
@@ -298,7 +324,7 @@ tbd
 
 ## Repeated Deployments
 
-Design and envirnment changes
+Design and environment changes
 
 
 ## Troubleshooting
@@ -306,7 +332,18 @@ Design and envirnment changes
 Reading logs, .. 
 
 
-## Questions? 
+## OneOps is Open Source
+
+- Core, UI and all other aspects
+- Packs and components
+- Documentation and training
+
+All on [GitHub/oneops](http://oneops.com). 
+
+> Become a contributor! We would love for you to join us!
+
+
+## Questions?
 
 Ask now, before we jump to the next section.
 
@@ -366,3 +403,16 @@ Why Use OneOps?
   • Clouds, Teams, Notifications, API/CLI
   • Questions
  
+ 
+ Test application details from Murali
+ 
+ Modify the platform variables to specify which artifact to deploy. This example uses the hello-servlet example app. Make sure that the values assigned to these variables do not contain spaces, as this can cause the Tomcat startup script to fail during deployment.
+Click on your assembly (be sure you have selected the "design" phase in the top menu). Click on the 'variables' section (below the breadcrumb trail)
+Click on 'appVersion'. Edit the variable, change the value to 1.0-SNAPSHOT.
+Click on 'artifactId'. Edit the variable, change the value to hello-servlet.
+Click on 'groupId'. Edit the variable, change the value to com.walmart.platform.examples.
+Click on 'repositoryURL'. Edit the variable, change the value to http://repo.wal-mart.com.
+Save your changes and commit them to your design.
+it's actually already there as part of this example
+https://wiki.wal-mart.com/index.php/Setting_up_Your_First_OneOps_Tomcat_Application
+http://repo.wal-mart.com/#view-repositories;snapshots~browsestorage
