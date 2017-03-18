@@ -22,7 +22,7 @@
 At the end of this class, you should: <!-- .element: class="fragment" -->
 
 - Understand the reasons to use OneOps <!-- .element: class="fragment" -->
-- Be able to create a simple assembly <!-- .element: class="fragment" -->
+- Be able to create a simple cloud application <!-- .element: class="fragment" -->
 - Run it in operation <!-- .element: class="fragment" -->
 - Know the OneOps terminology <!-- .element: class="fragment" -->
 
@@ -92,12 +92,14 @@ Ask now, before we jump to the next section.
 > Why use OneOps?
 
 
-## Baremetal/VM
+## Baremetal or Normal VM
 
 - Sized for largest load
-- Not dynamic (enough) 
+- Inefficient usage of resources
+- Not dynamic enough
 
-And hence not competitive in terms of price.
+And hence not competitive!
+
 
 ## Cloud to the Rescue
 
@@ -112,28 +114,59 @@ What do you mean by _Cloud_ though?
 - Rapid elasticity
 - Measured service
 
+Note:
 from NIST http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf
 
 
 ## 3 Cloud Service Delivery Methods
 
-- Software as a Service _SaaS_: Consume the cloud
-- Platform as a Service _PaaS_: Leverage the cloud
+- Software as a Service _SaaS_: Consume cloud applications.
+- Platform as a Service _PaaS_: Leverage the cloud for your own applications.
 - Infrastructure as a Service _IaaS_: Be a cloud
+
+Note:
+- SaaS is not enough, you dont control the application
+- IaaS is to bare bones, but potentially necesary to run your own cloud
+- PaasS .. great but you want to be your own PaaS to avoid dependence on PaaS provider
 
 
 ## Deployment Methods
 
-- Private cloud
-- Public cloud
+- Public cloud: available to anyone
+- Private cloud: only available to you
 - Mixed
 
+Note:
+- only mixed is truly competitive and possible on a global scale
 
-## Which Cloud? 
 
-- Each cloud platform introduces lock-in
-- Specific API and tools
+## Cloud Provider
+
+Either commercial company
+
+- Amazon
+- Microsoft
+- Google
+- Rackspace
+- Others
+
+Or your own provider using
+
+- OpenStack
+
+
+## Which to choose?
+
+- Each cloud introduces lock-in specific API and tools
 - No cloud is available globally
+- Different advantages over time and location
+- Varying stability and up-time
+
+Hence, choose none = all of them.
+
+Note: 
+- using multiple clouds is necessary but expensive
+- use cloud agnostic tools to reduce cost
 
 
 ## OneOps
@@ -144,6 +177,8 @@ OneOps is the ultimate PaaS!
 
 Design your application once and run and manage in any cloud.
 
+Aka. 
+
 
 ## Questions? 
 
@@ -153,7 +188,10 @@ Ask now, before we jump to the next section.
 
 # Introducing OneOps
 
-> tbd
+> Cloud Application Lifecycle Management Tool and your own PaaS
+
+
+## Scope
 
 With OneOps, your design becomes much more than a simple template. It's a continually maintained dataset where the notion of change is always recognized. In fact, OneOps was created from the ground up to manage the issues that arise with continuous change. In addition, OneOps automatically scales and repairs your application, to ensure high availability and optimal utilization of your cloud infrastructure.
  
@@ -181,6 +219,13 @@ Integrate with other tools.
 Check out [http://oneops.com/developer](http://oneops.com/developer)
 
 
+## User Training
+
+Level 1 - Beginner
+
+> Let's get started!
+
+
 ## Logging In
 
 tbd
@@ -188,7 +233,15 @@ tbd
 
 ## User Interface
 
-header, left bar
+- header with design, transition, operate
+- left nav bar
+- wizard
+- organization specific view
+
+
+## User Profile
+
+tbd
 
 
 ## Questions? 
@@ -210,10 +263,9 @@ Ask now, before we jump to the next section.
 - Fine-tune components inside each platform
 - Modify your design with version control
 
-
 ## platform/pack/circuit
 
-tbd
+- explain Packs, Platforms, Components
 
 
 ## component
@@ -240,9 +292,13 @@ Ask now, before we jump to the next section.
 - Bind to your cloud provider of choice
 - Deploy with effortless automation
 
+
 ## Cloud Concept 
  
 tbd
+
+
+## Environments, Redundant, Multi-Cloud, Autoscale
 
 
 ## Questions? 
@@ -263,7 +319,6 @@ Ask now, before we jump to the next section.
 - View configuration, metrics and logs
 - Enable auto-repair and auto-scale
 - Perform manual control actions
- 
 
 ## Release
 
@@ -281,6 +336,16 @@ whats there now
 - hostname
 
 
+## Monitoring
+
+tbd
+
+
+## Procedures
+
+tbd
+
+
 ## Questions? 
 
 Ask now, before we jump to the next section.
@@ -294,10 +359,31 @@ Ask now, before we jump to the next section.
 
 ## User Interface Redux
 
+Become more powerful and efficient with: 
+
 - Navigation bar 
 - Favorites
 - Search
 - Keyboard shortcuts
+
+## Navigation Bar
+
+tbd
+
+
+## Favorites
+
+tbd
+
+
+# Search
+
+tbd
+
+
+# Keyboard Shortcuts
+
+tbd
 
 
 ##  Notifications
@@ -332,6 +418,17 @@ Design and environment changes
 Reading logs, .. 
 
 
+## Administration
+
+Administrative user
+
+- clouds
+- organizations
+- teams
+- notifications
+- API/CLI
+
+
 ## OneOps is Open Source
 
 - Core, UI and all other aspects
@@ -349,38 +446,44 @@ Ask now, before we jump to the next section.
 
 
 
+## Conclusion
+
+> What next? 
+
+
+## Use it
+
+Learning by doing:
+
+- Install your own
+- Use a staging environment
+- Or production
+
+
+## Documentation
+
+Check out and learn more:
+
+- [oneops.com](http://oneops.com)
+- [Live chat](http://oneops.slack.com)
+- [Video](https://www.youtube.com/channel/UCajgVCGqZ2M9RhULR8Q5Iww)
+- [Source code](http://github.com/)
+
+## More Training
+
+- Q & A sessions with OneOps team
+- Advanced user training
+- Admin and developer training
+
+Note: 
+planning and working on those
+
+
+
 ## TBD
 
-What is Oneops
-Application Lifecycle Management Tool.
-With OneOps, your design becomes much more than a simple template.
-It automatically scales and repairs your application, to ensure high availability and optimal utilization of your cloud infrastructure1
-Phase
-design
-transition
-operations
-Design (Re-useability)
-Define your application workload based on your architectural and application requirements.
-Visually assemble your application
-Select from a library of platform packs
-Fine-tune components inside each platform
-Modify your design with version control
- 
-Transition
-Provision environments by mapping the design output against operational requirements.
-Create and customize multiple environments
-Specify availability requirements
-Bind to your cloud provider of choice
-Deploy with effortless automation
-Operations
-Monitor and control your environments to maintain the required operational levels.
-Monitor the health of your application
-View configuration, metrics and logs
-Enable autorepair and autoscale
-Perform manual control actions
+Need to work this into the modules
 
-What is OneOps?
-OneOps enables continuous lifecycle management of applications on any cloud-based infrastructure. It automates and accelerates many processes related to environment management, application deployment and the monitoring of datacenter operations.
 Why Use OneOps?
 •No More AER’s
 •VM Provisioning happens on-the-fly
@@ -392,19 +495,10 @@ Why Use OneOps?
 •Review CPU, Memory, Load, Disk usage reports
 •View VM usage report
 
-  • How do I use it?
-  – Design
-  • Packs, Platforms, Components
-  – Transition
-  • Environments, Redundant, Multi-Cloud, Autoscale
-  – Operations
-  • Monitoring, Procedures
-  – Administration
-  • Clouds, Teams, Notifications, API/CLI
-  • Questions
+
+
  
- 
- Test application details from Murali
+Test application details from Murali
  
  Modify the platform variables to specify which artifact to deploy. This example uses the hello-servlet example app. Make sure that the values assigned to these variables do not contain spaces, as this can cause the Tomcat startup script to fail during deployment.
 Click on your assembly (be sure you have selected the "design" phase in the top menu). Click on the 'variables' section (below the breadcrumb trail)
