@@ -47,10 +47,12 @@ Note:
 
 ## Prerequisites
 
-None, just pay attention!
+None, <!-- .element: class="fragment" --> 
+
+but pay attention! <!-- .element: class="fragment" -->
 
 
-## Instructor(s)
+## Instructors
 
 Who is teaching today?
 
@@ -59,21 +61,17 @@ Note:
 - and other teachers or helpers
 - tech background (developer, ops, ...)
 - maybe show yourself via video for a bit
-- keep it short
+- keep it short!
 
 
 ## Planned Class Structure
 
-In this class we are going to:
-
-- Learn by doing
-- Talk "Theory" only as-needed
+- Learn by example usage
+- Talk _theory_ only as needed
 - Emphasize demos over talk
 
 
 ## Please Interrupt Me
-
-..., if you have questions. <!-- .element: class="fragment" -->
 
 - Speak up <!-- .element: class="fragment" -->
 - Ask on chat <!-- .element: class="fragment" -->
@@ -108,11 +106,11 @@ What do you mean by _Cloud_ though?
 
 ## 5 Essential Cloud Characteristics
 
-- On-demand self-service
-- Broad network access
-- Resource pooling
-- Rapid elasticity
-- Measured service
+- On-demand self-service <!-- .element: class="fragment" -->
+- Broad network access <!-- .element: class="fragment" -->
+- Resource pooling <!-- .element: class="fragment" -->
+- Rapid elasticity <!-- .element: class="fragment" -->
+- Measured service <!-- .element: class="fragment" -->
 
 Note:
 from NIST http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf
@@ -120,9 +118,9 @@ from NIST http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-1
 
 ## 3 Cloud Service Delivery Methods
 
-- Software as a Service _SaaS_: Consume cloud applications.
-- Platform as a Service _PaaS_: Leverage the cloud for your own applications.
-- Infrastructure as a Service _IaaS_: Be a cloud
+- Software as a Service _SaaS_: <br> Consume cloud applications. <!-- .element: class="fragment" -->
+- Platform as a Service _PaaS_: <br>Leverage the cloud for your own applications. <!-- .element: class="fragment" -->
+- Infrastructure as a Service _IaaS_: <br> Be a cloud <!-- .element: class="fragment" -->
 
 Note:
 - SaaS is not enough, you dont control the application
@@ -132,9 +130,9 @@ Note:
 
 ## Deployment Methods
 
-- Public cloud: available to anyone
-- Private cloud: only available to you
-- Mixed
+- Public cloud: available to anyone <!-- .element: class="fragment" -->
+- Private cloud: only available to you <!-- .element: class="fragment" -->
+- Mixed <!-- .element: class="fragment" -->
 
 Note:
 - only mixed is truly competitive and possible on a global scale
@@ -153,18 +151,19 @@ Either commercial company
 Or your own provider using
 
 - OpenStack
+- Apache Cloudstack
 
 
-## Which to choose?
+## Which to Choose?
 
-- Each cloud introduces lock-in specific API and tools
+- Each cloud introduces lock-in with specific API and tools
 - No cloud is available globally
 - Different advantages over time and location
 - Varying stability and up-time
 
-Hence, choose none = all of them.
+Hence, choose none and use all of them.
 
-Note: 
+Note:
 - using multiple clouds is necessary but expensive
 - use cloud agnostic tools to reduce cost
 
@@ -176,8 +175,6 @@ Abstracts your application from a specific cloud:
 OneOps is the ultimate PaaS!
 
 Design your application once and run and manage in any cloud.
-
-Aka. 
 
 
 ## Questions? 
@@ -191,32 +188,30 @@ Ask now, before we jump to the next section.
 > Cloud Application Lifecycle Management Tool and your own PaaS
 
 
-## Scope
-
-With OneOps, your design becomes much more than a simple template. It's a continually maintained dataset where the notion of change is always recognized. In fact, OneOps was created from the ground up to manage the issues that arise with continuous change. In addition, OneOps automatically scales and repairs your application, to ensure high availability and optimal utilization of your cloud infrastructure.
- 
- 
-## User
+## OneOps User
 
 Create and manage cloud applications _with OneOps_.
 
-Starting with the current training and [http://oneops.com/user](http://oneops.com/user)
+Starting with the current training...
 
 
-## Administrator
+## OneOps Administrator
 
 Install and manage _OneOps itself_.
 
-Check out [http://oneops.com/admin](http://oneops.com/admin)
 
+## OneOps Developer
 
-## Developer
-
-Modify OneOps itself or used components.
+Modify OneOps and used components.
 
 Integrate with other tools.
 
-Check out [http://oneops.com/developer](http://oneops.com/developer)
+
+## OneOps Expert
+
+- User
+- Administrator
+- Developer
 
 
 ## User Training
