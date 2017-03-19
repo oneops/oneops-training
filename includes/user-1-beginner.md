@@ -223,7 +223,7 @@ Check out [http://oneops.com/developer](http://oneops.com/developer)
 
 Level 1 - Beginner
 
-> Let's get started!
+### Let's get started!
 
 
 ## Logging In
@@ -437,7 +437,7 @@ Administrative user
 
 All on [GitHub/oneops](http://oneops.com). 
 
-> Become a contributor! We would love for you to join us!
+### Become a contributor! We would love for you to join us!
 
 
 ## Questions?
@@ -446,28 +446,50 @@ Ask now, before we jump to the next section.
 
 
 
-## Conclusion
+# Conclusion
 
-> What next? 
+> And what is next?
 
 
-## Use it
+## OneOps
 
-Learning by doing:
+Your own
 
-- Install your own
+_Platform as a Service_
+
+for all your
+
+_Cloud Application Lifecycle Management_.
+
+
+## Advantages
+
+- One tool
+- Many different applications
+- Many deployment options and clouds
+- Low effort management
+- Auto-scale and Auto-repair
+- Monitoring, notifications, logging
+- Usage and cost reporting
+- Policy management
+
+Huge gains in efficiency and versatility!
+
+
+## Now Use It
+
 - Use a staging environment
 - Or production
+- Install your own
 
 
-## Documentation
-
-Check out and learn more:
+## Learn More
 
 - [oneops.com](http://oneops.com)
 - [Live chat](http://oneops.slack.com)
 - [Video](https://www.youtube.com/channel/UCajgVCGqZ2M9RhULR8Q5Iww)
 - [Source code](http://github.com/)
+
 
 ## More Training
 
@@ -480,24 +502,13 @@ planning and working on those
 
 
 
-## TBD
+# TBD
 
-Need to work this into the modules
-
-Why Use OneOps?
-•No More AER’s
-•VM Provisioning happens on-the-fly
-•Create as many Environments as required without waiting for months
-•Support multiple application types
-•Auto-scale and Auto-repair
-•Set custom monitors
-•View Logs
-•Review CPU, Memory, Load, Disk usage reports
-•View VM usage report
+> Need to work this into the modules
 
 
+## 1,2,3, ABC...
 
- 
 Test application details from Murali
  
  Modify the platform variables to specify which artifact to deploy. This example uses the hello-servlet example app. Make sure that the values assigned to these variables do not contain spaces, as this can cause the Tomcat startup script to fail during deployment.
