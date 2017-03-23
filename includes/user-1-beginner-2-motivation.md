@@ -31,13 +31,13 @@ from NIST http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-1
 
 ## 3 Cloud Service Delivery Methods
 
-- Software as a Service _SaaS_: <br> Consume cloud applications. <!-- .element: class="fragment" -->
-- Platform as a Service _PaaS_: <br>Leverage the cloud for your own applications. <!-- .element: class="fragment" -->
-- Infrastructure as a Service _IaaS_: <br> Be a cloud <!-- .element: class="fragment" -->
+- Software as a Service __SaaS__ <br> "Consume cloud applications." 
+- Platform as a Service __PaaS__ <br> "Leverage the cloud for your own applications." 
+- Infrastructure as a Service __IaaS__ <br> "Be a cloud." 
 
 Note:
-- SaaS is not enough, you dont control the application
-- IaaS is to bare bones, but potentially necesary to run your own cloud
+- SaaS is not enough, you don't control the application
+- IaaS is to bare bones, but potentially necessary to run your own cloud
 - PaasS .. great but you want to be your own PaaS to avoid dependence on PaaS provider
 
 

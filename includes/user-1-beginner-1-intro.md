@@ -3,7 +3,7 @@
 > Level 1 - Beginner
 
 
-## Overview
+## Training Overview
 
 - Learn about cloud application <!-- .element: class="fragment" -->
 - Introduction to OneOps <!-- .element: class="fragment" -->
@@ -75,8 +75,7 @@ Note:
 
 - Speak up <!-- .element: class="fragment" -->
 - Ask on chat <!-- .element: class="fragment" -->
-
-We have time for questions, but you can also ask more later. <!-- .element: class="fragment" -->
+- There is time for questions <!-- .element: class="fragment" -->
 
 
 ## Questions? 
