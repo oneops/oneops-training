@@ -51,6 +51,35 @@ Note:
 - only mixed is truly competitive and possible on a global scale
 
 
+## Cloud Application Architecture
+
+<img src="images/cloud-application-architecture.png" />
+
+
+## Cloud Application Architecture
+
+- Application is collection of services
+- Many small servers with single purpose
+- Load balanced across servers
+- Decoupled data from servers
+- Concurrency for scale
+- Disposable servers
+
+Learn more e.g. at [https://12factor.net/](https://12factor.net/)
+
+
+## Advantages
+
+Smaller virtual servers result in:
+
+- Higher usage of the underlying hardware
+- Lower operating cost
+- Reduced complexity per application container
+- Economies of scale
+
+Typically utilization is raised from around 20% to 90%.
+
+
 ## Cloud Provider
 
 Either commercial company
