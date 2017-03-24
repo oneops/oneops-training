@@ -3,14 +3,68 @@
 > tbd
 
 
-## platform/pack/circuit
+## Assembly
+ 
+- Defines the design of your system
 
-- explain Packs, Platforms, Components
+> Your cloud application!
+
+Note: 
+- demo creating an assembly
 
 
-## component
+## Platform
 
-tbd
+Platforms define the parts of your assembly.
+
+Examples:
+
+- Apache Tomcat
+- Apache HTTP Server
+- Nodejs
+- Cassandra
+- Couchbase
+- ElasticSearch
+- Custom
+- many more
+
+
+## Pack
+
+Templates you use when creating a platform.
+
+
+## Pack Source
+
+Aka __Circuit__ 
+
+A collection of packs, components...
+
+Later we will learn about "Pack Development".
+
+https://github.com/oneops/circuit-oneops-1/
+
+
+## Component
+
+Building blocks of platforms.
+
+Examples:
+
+- Compute
+- OS
+- Java
+- Tomcat
+
+
+## Examine Design
+
+Look at various aspect of UI 
+
+
+## Save
+
+Commit
 
 
 ## Design Recap
