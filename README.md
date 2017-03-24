@@ -2,6 +2,9 @@
 
 Slide decks for OneOps training classes, presentations and videos.
 
+
+## Presenting
+
 Run the directory of this repo via a webserver to use the slides e.g. with
 
 ```
@@ -11,6 +14,11 @@ Run the directory of this repo via a webserver to use the slides e.g. with
 and check [http://localhost:9000] for everything. 
 
 You can also run it on any other webserver.
+
+
+Tested and suggested browser/screen size for remote training or video recording is 720p (1280 x 720 px). If necessary
+due available monitor you can also use 1280 x 800 (e.g. on a laptop screen). Larger screens might be okay for training
+but decrease the readability and should definitely NOT be used for video creation.
 
 ## Writing
 
