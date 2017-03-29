@@ -16,20 +16,32 @@ And hence not competitive!
 
 What do you mean by _Cloud_ though?
 
+Principles
 
-## 5 Essential Cloud Characteristics
-
-- On-demand self-service <!-- .element: class="fragment" -->
-- Broad network access <!-- .element: class="fragment" -->
-- Resource pooling <!-- .element: class="fragment" -->
-- Rapid elasticity <!-- .element: class="fragment" -->
-- Measured service <!-- .element: class="fragment" -->
+- Automated
+- Instrumented
+- Resilient
+- Adaptive
+- Secure
 
 Note:
-from NIST http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf
+- principles means you try to achieve it...
 
 
-## 3 Cloud Service Delivery Methods
+## Five Essential Cloud Characteristics
+
+- On-demand self-service - get it going fast<!-- .element: class="fragment" -->
+- Broad network access - access from anywhere with anything <!-- .element: class="fragment" -->
+- Resource pooling - be efficient <!-- .element: class="fragment" -->
+- Rapid elasticity - scale up and down <!-- .element: class="fragment" -->
+- Measured service - measure and then pay per use<!-- .element: class="fragment" -->
+
+Note:
+- from NIST http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf
+- TBD .. what do you need to talk about with this
+
+
+## Three Cloud Service Delivery Methods
 
 - Software as a Service __SaaS__ <br> "Consume cloud applications." 
 - Platform as a Service __PaaS__ <br> "Leverage the cloud for your own applications." 

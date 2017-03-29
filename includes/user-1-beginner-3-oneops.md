@@ -38,20 +38,66 @@ Level 1 - Beginner
 
 ## Logging In
 
-tbd
+Username and password
+
+Access level depends on your account
+
+Organization specific view 
+
+Note:
+- Active directory or similar credentials depending on OneOps config
+- demo it
 
 
 ## User Interface
 
-- header with design, transition, operate
-- left nav bar
-- wizard
-- organization specific view
+- Header
+  - with design, transition, operate
+  - or catalogs, clouds, assemblies, settings
+- Navigation on left bar or header
+  - including search, favorites, profile, logout
+- Guidance wizard
+- Lists
+
+Note:
+- demo it all
+- switch of nav bar, theme
+- demo list with assemblies maybe
 
 
 ## User Profile
 
-tbd
+- Email used for notifications
+- API Token
+- Organizations
+- Groups
+- Notifications
+- Favorites
+
+## Administrative User
+
+An administrative user needs to configure and manage:
+
+- Catalogs/Packs
+- Clouds
+
+Note:
+- beyond scope of this class
+
+
+## Organization
+
+OneOps is a multi-tenant application:
+
+- Profile
+- Teams
+- Users
+- Environments
+- Notifications
+- Policies
+
+Note:
+- beyond scope of this class
 
 
 ## Questions? 
