@@ -1,6 +1,6 @@
 # In Business aka Operation
 
-> its running now
+> Running and maintaining application
 
 
 ## Release

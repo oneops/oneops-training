@@ -1,6 +1,6 @@
 # Introducing OneOps
 
-> Cloud Application Lifecycle Management Tool and your own PaaS
+> Cloud Application Lifecycle Management Tool <br> a.k.a. your own PaaS
 
 
 ## OneOps User

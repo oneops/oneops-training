@@ -1,6 +1,6 @@
 # Getting Started aka Design
 
-> tbd
+> Define your cloud application
 
 
 ## Assembly

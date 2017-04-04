@@ -1,6 +1,6 @@
 # Conclusion
 
-> And what is next?
+> And what is next...
 
 
 ## OneOps

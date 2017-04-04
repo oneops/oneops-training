@@ -1,6 +1,6 @@
 # Moving aka Transition
 
-> Where to 
+> Preparing for launch
 
 
 ## Environments
