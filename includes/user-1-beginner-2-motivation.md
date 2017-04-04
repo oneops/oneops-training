@@ -11,20 +11,25 @@
 
 And hence not competitive!
 
+Note: 
+- explain bare metal means OS right on the hardware
+- normal VM still too static on its own, often just like hardware 
+
 
 ## Cloud to the Rescue
 
 What do you mean by _Cloud_ though?
 
-Principles
+Principles:
 
-- Automated
-- Instrumented
-- Resilient
-- Adaptive
-- Secure
+- Automated - Hands off! <!-- .element: class="fragment" -->
+- Instrumented - What's going on? <!-- .element: class="fragment" -->
+- Resilient - Failure is planned for. <!-- .element: class="fragment" -->
+- Adaptive - Change is inevident. <!-- .element: class="fragment" -->
+- Secure - A must. <!-- .element: class="fragment" -->
 
 Note:
+- beyond the buzz around cloud
 - principles means you try to achieve it...
 
 
@@ -38,7 +43,6 @@ Note:
 
 Note:
 - from NIST http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf
-- TBD .. what do you need to talk about with this
 
 
 ## Three Cloud Service Delivery Methods
@@ -55,17 +59,21 @@ Note:
 
 ## Deployment Methods
 
-- Public cloud: available to anyone <!-- .element: class="fragment" -->
-- Private cloud: only available to you <!-- .element: class="fragment" -->
+- Public cloud: available to anyone, owned by third party <!-- .element: class="fragment" -->
+- Private cloud: only available to you, owned by third party or yourself <!-- .element: class="fragment" -->
 - Mixed <!-- .element: class="fragment" -->
 
-Note:
-- only mixed is truly competitive and possible on a global scale
+> Only mixed is truly competitive and possible on a large scale
 
 
 ## Cloud Application Architecture
 
 <img src="images/cloud-application-architecture.png" />
+
+Note:
+- many small nodes
+- dedicated task for each node
+- each node can break down without taking out overall application
 
 
 ## Cloud Application Architecture
@@ -81,8 +89,6 @@ Learn more e.g. at [https://12factor.net/](https://12factor.net/)
 
 
 ## Advantages
-
-Smaller virtual servers result in:
 
 - Higher usage of the underlying hardware
 - Lower operating cost
@@ -126,9 +132,9 @@ Note:
 
 Abstracts your application from a specific cloud:
 
-OneOps is the ultimate PaaS!
+> OneOps is the ultimate PaaS!
 
-Design your application once and run and manage in any cloud.
+> Design your application once and run and manage in any cloud.
 
 
 ## Questions? 
