@@ -34,6 +34,18 @@ Note:
 - Class helps even if you already know/use OneOps
 
 
+## Instructors
+
+Who is teaching today?
+
+Note:
+- introduce yourself
+- and other teachers or helpers
+- tech background (developer, ops, ...)
+- maybe show yourself via video for a bit
+- keep it short!
+
+
 ## Course Mechanics
 
 - Three one hour long sessions with breaks <!-- .element: class="fragment" -->
@@ -50,18 +62,6 @@ Note:
 None, <!-- .element: class="fragment" --> 
 
 but pay attention! <!-- .element: class="fragment" -->
-
-
-## Instructors
-
-Who is teaching today?
-
-Note:
-- introduce yourself
-- and other teachers or helpers
-- tech background (developer, ops, ...)
-- maybe show yourself via video for a bit
-- keep it short!
 
 
 ## Planned Class Structure
