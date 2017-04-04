@@ -3,16 +3,25 @@
 > Cloud Application Lifecycle Management Tool <br> a.k.a. your own PaaS
 
 
+## Translation
+
+Design and manage your application throughout it's lifecycle on your own cloud platform = OneOps.
+
+
 ## OneOps User
 
 Create and manage cloud applications _with OneOps_.
 
-Starting with the current training...
+Note:
+- This is covered in this training.
 
 
 ## OneOps Administrator
 
 Install and manage _OneOps itself_.
+
+Note:
+- This is NOT covered in this training.
 
 
 ## OneOps Developer
@@ -21,6 +30,9 @@ Modify OneOps and used components.
 
 Integrate with other tools.
 
+Note:
+- This is NOT covered in this training.
+
 
 ## OneOps Expert
 
@@ -28,12 +40,16 @@ Integrate with other tools.
 - Administrator
 - Developer
 
+Note: 
+- Expert knows all.
+- Our goal for you.
+
 
 ## User Training
 
 Level 1 - Beginner
 
-### Let's get started!
+> Let's get started!
 
 
 ## Logging In
@@ -74,15 +90,8 @@ Note:
 - Notifications
 - Favorites
 
-## Administrative User
-
-An administrative user needs to configure and manage:
-
-- Catalogs/Packs
-- Clouds
-
 Note:
-- beyond scope of this class
+- Your own home so to speak
 
 
 ## Organization
@@ -100,7 +109,20 @@ Note:
 - beyond scope of this class
 
 
+## Administrative User
+
+An administrative user needs to configure and manage:
+
+- Catalogs/Packs
+- Clouds
+- Organizations
+
+Note:
+- beyond scope of this class
+
+
 ## Questions? 
 
 Ask now, before we jump to the next section.
+
 
