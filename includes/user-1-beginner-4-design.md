@@ -10,7 +10,20 @@
 > Your cloud application!
 
 Note: 
-- demo creating an assembly
+- demo creating an assembly, navigate to assemblies and press new
+- give name, description, email, save, then back to slides
+- talk about examples like webapp, console applications, show some in list
+
+## Variables
+
+Values to use across assembly.
+
+Note:
+- TBD still need to test the below
+- Click on 'appVersion'. Edit the variable, change the value to 1.0-SNAPSHOT.
+- Click on 'artifactId'. Edit the variable, change the value to hello-servlet.
+- Click on 'groupId'. Edit the variable, change the value to com.walmart.platform.examples.
+- Click on 'repositoryURL'. Edit the variable, change the value to http://repo.wal-mart.com.
 
 
 ## Platform
@@ -33,16 +46,17 @@ Examples:
 
 Templates you use when creating a platform.
 
+From a collection of packs, components... the _Pack Source_.
 
-## Pack Source
+Also known as _Circuit_.
 
-Aka __Circuit__ 
+Show up in _Catalogs_.
 
-A collection of packs, components...
-
-Later we will learn about "Pack Development".
-
-https://github.com/oneops/circuit-oneops-1/
+Note:
+- talk about different circuits
+- Show [https://github.com/oneops/circuit-oneops-1](https://github.com/oneops/circuit-oneops-1)
+- Developers learn about _Pack Development_.
+- Demo: Add tomcat component from oneops circuit (= open source circuit)
 
 
 ## Component
@@ -55,28 +69,42 @@ Examples:
 - OS
 - Java
 - Tomcat
+- LB
+- FQDN
+
+Note:
+- Demo looking at compute, java and tomcat components
 
 
 ## Examine Design
 
-Look at various aspect of UI 
+Look at various aspects:
 
+- Summary
+- Variables
+- Timeline
+- Diagram
+- Platforms
 
-## Save
+Note:
+- All changes are version controlled.
 
-Commit
+## And Finally
+
+Review and Commit
 
 
 ## Design Recap
 
-- Define your application workload based on your architectural and application requirements.
-- Visually assemble your application
+- Define your application
 - Select from a library of platform packs
-- Fine-tune components inside each platform
-- Modify your design with version control
+- Fine-tune components of each platform
+
+All independent of target cloud!
 
 
 ## Questions? 
 
 Ask now, before we jump to the next section.
+
 
