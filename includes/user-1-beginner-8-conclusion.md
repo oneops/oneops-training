@@ -37,10 +37,10 @@ Huge gains in efficiency and versatility!
 
 ## Learn More
 
-- [oneops.com](http://oneops.com)
-- [Live chat](http://oneops.slack.com)
-- [Video](https://www.youtube.com/channel/UCajgVCGqZ2M9RhULR8Q5Iww)
-- [Source code](http://github.com/)
+- [Website at http://oneops.com](http://oneops.com)
+- [Live chat on http://oneops.slack.com](http://oneops.slack.com)
+- [Video channel on YouTube](https://www.youtube.com/channel/UCajgVCGqZ2M9RhULR8Q5Iww)
+- [Source code at http://github.com/oneops](http://github.com/oneops)
 
 
 ## More Training
