@@ -14,17 +14,6 @@ Note:
 - give name, description, email, save, then back to slides
 - talk about examples like webapp, console applications, show some in list
 
-## Variables
-
-Values to use across assembly.
-
-Note:
-- TBD still need to test the below
-- Click on 'appVersion'. Edit the variable, change the value to 1.0-SNAPSHOT.
-- Click on 'artifactId'. Edit the variable, change the value to hello-servlet.
-- Click on 'groupId'. Edit the variable, change the value to com.walmart.platform.examples.
-- Click on 'repositoryURL'. Edit the variable, change the value to http://repo.wal-mart.com.
-
 
 ## Platform
 
@@ -69,11 +58,11 @@ Examples:
 - OS
 - Java
 - Tomcat
-- LB
-- FQDN
 
 Note:
 - Demo looking at compute, java and tomcat components
+- Remove Binary distribution mirrors in tomcat component
+- Enable autoDeploy to true in tomcat component
 
 
 ## Examine Design
@@ -88,6 +77,26 @@ Look at various aspects:
 
 Note:
 - All changes are version controlled.
+
+
+## Additional Component
+
+TBD do we need to add user? 
+
+Add _artifact_ component for our application
+
+Note:
+- Repository URL $OO_CLOUD{nexus} 
+- equivalent to http://repo1.maven.org/maven2/org/mybatis/jpetstore/6.0.2/jpetstore-6.0.2.war
+- repository  pangaea_releases
+- identifier  org.mybatis:jpetstore:war
+- version 6.0.2
+- path /nexus
+- Install Dir /app/jpetstore
+- Deploy as user app
+- Deploy as group  app
+- restart execute `ln -s /app/jpetstore/current /opt/tomcat7/webapps/petstore`
+
 
 ## And Finally
 

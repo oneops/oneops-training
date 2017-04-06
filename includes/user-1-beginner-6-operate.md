@@ -3,9 +3,19 @@
 > Running and maintaining application
 
 
-## Release
+## Inspecting Environments
 
-getting out there
+After transition phase commit and deploy look at Environments 
+
+- Summary
+  - Status
+  - Notifications
+  - Platforms
+- Graph
+- Health
+
+Note:
+- Demo overview
 
 
 ## Component Instances

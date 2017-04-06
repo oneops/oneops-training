@@ -7,29 +7,71 @@
 
 Become more powerful and efficient with: 
 
-- Navigation bar 
+- Navigation bars
 - Favorites
 - Search
 - Keyboard shortcuts
 
-## Navigation Bar
 
-tbd
+## Navigation Bars
 
+On left
 
 ## Favorites
 
-tbd
+Set bookmark and find entity any time.
+
+Manage favorites across organizations.
+
+Note:
+Demo
 
 
 ## Search
 
-tbd
+- Scope
+  - Organization
+  - Environment
+- Criteria
+  - Query
+  - Namespace filter
+  - Class filter 
+
+Note:
+Demo
+
+
+## Search Continued
+
+- catalog.* equivalent to the design phase
+- manifest.* equivalent to the transition phase
+- bom.* equivalent to the operations phase
+- account
+- cloud
+
+
+Note:
+Demo
+
+
+## Search Results
+
+List with
+- sort
+- filter
+- action 
 
 
 ## Keyboard Shortcuts
 
-tbd
+`ALT-o`: organization <br>
+`ALT-d`: entity in design <br>
+`ALT-t`: entity in transition <br>
+`ALT-p`: entity in operate <br>
+`ALT-g`: any entity and narrow with `d`, `t` or `o` <br>
+
+Note:
+Demo
 
 
 ##  Notifications
@@ -37,6 +79,16 @@ tbd
 owner emails
 
 watching
+
+
+## Monitors
+
+- Auto Repair
+- Auto Replace
+
+## Autoscale
+
+tbd
 
 
 ## FQDN
@@ -81,7 +133,7 @@ Administrative user
 - Packs and components
 - Documentation and training
 
-All on [GitHub/oneops](http://oneops.com). 
+All on [GitHub/oneops](http://github.com/oneops).
 
 ### Become a contributor! We would love for you to join us!
 
