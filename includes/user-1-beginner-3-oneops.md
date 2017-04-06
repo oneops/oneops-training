@@ -73,12 +73,13 @@ Note:
 - Navigation on left bar or header
   - including search, favorites, profile, logout
 - Guidance wizard
-- Lists
+- Lists 
+  - sort, select, filter, action
 
 Note:
 - demo it all
 - switch of nav bar, theme
-- demo list with assemblies maybe
+- demo list with assemblies
 
 
 ## User Profile
