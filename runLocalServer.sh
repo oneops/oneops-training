@@ -1,7 +1,7 @@
 #!/bin/bash
 
+# Optional argument for port defaulting to 9000
 PORT=${1:-9000}
-
 
 echo "Starting webserver on port $PORT to allow markdown includes."
 if [ -x "$(command -v python)" ]; then
