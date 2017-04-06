@@ -8,13 +8,20 @@ Slide decks for OneOps training classes, presentations and videos.
 Run the directory of this repo via a webserver to use the slides e.g. with
 
 ```
-./runLocalServerPython.sh
+./runLocalServer.sh
 ```
 
-and check [http://localhost:9000] for everything. 
+and check [http://localhost:9000] for everything. The script will try multiple technologies installed to run the local
+webserver (Python 2 and 3, Ruby, Busybox).
 
-You can also run it on any other webserver.
+Optionally you can pass in an alternative port. This is useful to avoid port conflicts with other servers running e.g.
+from another slide deck repo using the same script.
 
+```
+./runLocalServer.sh 9999
+```
+
+You can also run it on any other webserver and hence host it together with a website.
 
 Tested and suggested browser/screen size for remote training or video recording is 720p (1280 x 720 px). If necessary
 due available monitor you can also use 1280 x 800 (e.g. on a laptop screen). Larger screens might be okay for training
