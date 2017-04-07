@@ -21,7 +21,13 @@ _Cloud Application Lifecycle Management_.
 - Many deployment options and clouds
 - Low effort management
 - Auto-scale and Auto-repair
-- Monitoring, notifications, logging
+
+
+## More Advantages
+
+- Monitoring
+- Notifications
+- Logging
 - Usage and cost reporting
 - Policy management
 
@@ -32,7 +38,21 @@ Huge gains in efficiency and versatility!
 
 - Use a staging environment
 - Or production
-- Install your own
+- Advanced usage
+
+
+## Use It More
+
+- Administrative usage
+- Administrator
+  - Install your own
+- Integration development
+  - Boo
+  - CI/CD
+- Pack development
+- OneOps development 
+
+> Become an expert!
 
 
 ## Learn More
