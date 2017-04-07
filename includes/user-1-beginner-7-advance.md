@@ -15,16 +15,21 @@ Become more powerful and efficient with:
 
 ## Navigation Bars
 
-On left
+- Left or top
+- Phase and entity specific navigation
+
+Note: 
+- Demo
+
 
 ## Favorites
 
 Set bookmark and find entity any time.
 
-Manage favorites across organizations.
+_Manage favorites_ across organizations.
 
 Note:
-Demo
+- Demo
 
 
 ## Search
@@ -35,10 +40,12 @@ Demo
 - Criteria
   - Query
   - Namespace filter
-  - Class filter 
+  - Class filter
+- Quick search
 
 Note:
-Demo
+- Demo
+- Point out doc examples and video at [http://oneops.com/user/general/search](http://oneops.com/user/general/search)
 
 
 ## Search Continued
@@ -49,17 +56,18 @@ Demo
 - account
 - cloud
 
-
 Note:
 Demo
 
 
 ## Search Results
 
-List with
+A list with
 - sort
 - filter
-- action 
+- action
+
+Find entities and perform bulk actions!
 
 
 ## Keyboard Shortcuts
@@ -71,7 +79,7 @@ List with
 `ALT-g`: any entity and narrow with `d`, `t` or `o` <br>
 
 Note:
-Demo
+- Demo
 
 
 ##  Notifications
@@ -91,19 +99,26 @@ watching
 tbd
 
 
-## FQDN
+## Load Balancer LB
 
-tbd
+Front-end for redundant computes
+
+Port mapping
 
 
-## LB
+## Fully Qualified Domain Name FQDN
 
-tbd
+Public, static hostname for platform
 
 
 ## Attachments
 
 tbd
+
+
+## Control Environment
+
+What is it and why is it important
 
 
 ## Repeated Deployments
@@ -126,6 +141,10 @@ Administrative user
 - notifications
 - API/CLI
 
+Note:
+- not part of this training really
+- just so you know about it.. 
+
 
 ## OneOps is Open Source
 
@@ -135,7 +154,7 @@ Administrative user
 
 All on [GitHub/oneops](http://github.com/oneops).
 
-### Become a contributor! We would love for you to join us!
+> Become a contributor! We would love for you to join us!
 
 
 ## Questions?
