@@ -5,7 +5,7 @@
 
 ## Inspecting Environments
 
-After transition phase commit and deploy look at Environments 
+After transition phase with _commit and deploy_ look at Environments
 
 - Summary
   - Status
@@ -13,21 +13,50 @@ After transition phase commit and deploy look at Environments
   - Platforms
 - Graph
 - Health
+- Procedures
+- Search
 
 Note:
 - Demo overview
 
 
-## Component Instances
+## Platforms and Components
 
-whats there now
+Deployed instances in specific environment
+
+Operation specific views and features
+
+Note:
+- Demo
+- Includes actions for components
 
 
-## Compute
+## Example: Compute Component
 
 - IP number
 - hostname
 
+
+## SSH into Compute
+
+- Configure user with SSH authorization key
+- Commit design
+- Pull design to environment
+- Commit and deploy
+
+TBD: do we need to replace compute?
+
+Note:
+- Demo
+
+
+## Logs
+
+- logs tab on compute
+- TBD .. anything else?
+
+Note: 
+- Demo
 
 ## Monitoring
 
