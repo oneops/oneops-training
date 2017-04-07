@@ -12,6 +12,8 @@ Defines your application runtime scenarios with regards to
 - scalability,
 - and availability mode.
 
+"How and where to deploy and run"
+
 
 ## Creating Environments
 
@@ -36,7 +38,6 @@ Note:
 - Redundant
   - Create highly available services
   - Multiple computes for each platform
-- Port mapping provided by LoadBalancer (LB)
 
 
 ## Clouds
@@ -56,7 +57,7 @@ Note:
 
 Note:
 - Demo it
-- Explain locking config parameters
+- Explain locking of config parameters
 
 
 ## Deployment
@@ -64,21 +65,22 @@ Note:
 - Pull Design 
   - When changes have been made to the design
 - Commit & Deploy
-  - Build and a deployment plan
-  - Final DEPLOY click to actually execute
+  - Build a deployment plan
+  - Review
+  - _Deploy_ to actually execute
 
 Note:
 - Demo design change and pull into environment
-- Demo commit and deploy
+- Demo commit and deploy, show diffs on deployment plan
 
 
 ## Transition Recap
 
-- Environments map the design output against operational requirements
+- Environments map the design to operational requirements
 - Multiple environments possible
-- Availability requirements
-- Choose any cloud provider
-- Deploy to operation
+- Varying availability requirements
+- Any cloud provider
+- _Commit and Deploy_ to operation
 
 
 ## Questions? 
