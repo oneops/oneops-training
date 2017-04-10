@@ -1,6 +1,6 @@
 # In Business aka Operation
 
-> Running and maintaining application
+> Running and maintaining your application
 
 
 ## Inspecting Environments
@@ -33,8 +33,15 @@ Note:
 
 ## Example: Compute Component
 
-- IP number
-- hostname
+- Summary
+- Configuration
+- Monitors
+- Notifications
+- Procedures
+- Logs
+
+Note:
+- Demo IP number, hostname and more
 
 
 ## SSH into Compute
