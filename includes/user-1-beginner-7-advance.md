@@ -84,26 +84,27 @@ Note:
 
 ##  Notifications
 
-TBD 
-owner emails
+- Owner email
+- Notifications in phases
 
-watching
+Note:
+- Demo it
 
 
 ## Monitoring
 
+- Tab in component 
 - Charts
 - Thresholds
-- Auto Repair
-- Auto Replace
+- Enables Auto Repair and Auto Replace
 
-## Autoscale
-
-TBD
+Note: 
+- Demo it
 
 
 ## Lots More for Advanced Usage
 
+- Auto Scale
 - Load Balancer LB
 - Fully Qualified Domain Name FQDN
 - Attachments
@@ -111,17 +112,17 @@ TBD
 - Repeated Deployments
 - Logs
 
-Let's explore later if time permits.
+Let's explore later, if time permits.
 
 
 ## Administration
 
 Administrative user
 
-- clouds
-- organizations
-- teams
-- notifications
+- Clouds
+- Organizations
+- Teams
+- Notifications
 - API/CLI
 
 Note:

@@ -5,7 +5,7 @@
 
 ## Inspecting Environments
 
-After transition phase with _commit and deploy_ look at Environments
+After transition phase with _commit and deploy_
 
 - Summary
   - Status
@@ -17,14 +17,13 @@ After transition phase with _commit and deploy_ look at Environments
 - Search
 
 Note:
-- Demo overview
+- Demo overview of enviroments in operation
 
 
 ## Platforms and Components
 
-Deployed instances in specific environment
-
-Operation specific views and features
+- Deployed instances in specific environment
+- Operation-specific views and features
 
 Note:
 - Demo
@@ -58,11 +57,10 @@ Note:
 
 ## Operations Recap
 
-- Monitor and control your environments to maintain the required operational levels.
-- Monitor the health of your application
-- View configuration, metrics and logs
-- Enable auto-repair and auto-scale
-- Perform manual control actions
+- Monitor and control your application.
+- Maintain the required operational levels.
+- View configuration, metrics and logs.
+- Perform manual control actions.
 
 
 ## Questions? 

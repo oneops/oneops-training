@@ -20,7 +20,7 @@ for all your
 - Many different applications
 - Many deployment options and clouds
 - Low effort management
-- Auto-scale and Auto-repair
+- Auto-scale, Auto-repair, ...
 
 
 ## More Advantages
@@ -38,7 +38,7 @@ for all your
 
 - Use a staging environment
 - Or production
-- Advanced usage
+- Learn advanced usage
 
 
 ## Use It More
