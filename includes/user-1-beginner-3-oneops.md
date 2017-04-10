@@ -5,7 +5,11 @@
 
 ## Translation
 
-Design and manage your application throughout it's lifecycle on your own cloud platform = OneOps.
+Design and manage your application <br>
+throughout it's lifecycle<br>
+ on your own cloud platforms of choice.<br> 
+ 
+<h2 class="yellow">OneOps</h2>d
 
 
 ## OneOps User
@@ -49,16 +53,14 @@ Note:
 
 Level 1 - Beginner
 
-> Let's get started!
+<h2 class="yellow">Let's get started!</h2>
 
 
 ## Logging In
 
-Username and password
-
-Access level depends on your account
-
-Organization specific view 
+- Username and password
+- Access level depends on your account
+- Organization specific view 
 
 Note:
 - Active directory or similar credentials depending on OneOps config
@@ -73,7 +75,7 @@ Note:
 - Navigation on left bar or header
   - including search, favorites, profile, logout
 - Guidance wizard
-- Lists 
+- Lists
   - sort, select, filter, action
 
 Note:
