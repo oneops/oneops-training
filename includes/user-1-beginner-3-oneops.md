@@ -124,6 +124,6 @@ Note:
 
 ## Questions? 
 
-Ask now, before we jump to the next section.
+<em class="yellow">Ask now, before we jump to the next section.</em>
 
 

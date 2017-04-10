@@ -79,7 +79,7 @@ Note:
 - All changes are version controlled.
 
 
-## Additional Component
+## Optional Component
 
 TBD do we need to add user? 
 
@@ -114,6 +114,5 @@ All independent of target cloud!
 
 ## Questions? 
 
-Ask now, before we jump to the next section.
-
+<em class="yellow">Ask now, before we jump to the next section.</em>
 

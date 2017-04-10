@@ -42,30 +42,11 @@ Note:
 - Configure user with SSH authorization key
 - Commit design
 - Pull design to environment
+- Set to replace compute
 - Commit and deploy
-
-TBD: do we need to replace compute?
 
 Note:
 - Demo
-
-
-## Logs
-
-- logs tab on compute
-- TBD .. anything else?
-
-Note: 
-- Demo
-
-## Monitoring
-
-tbd
-
-
-## Procedures
-
-tbd
 
 
 ## Operations Recap
@@ -79,5 +60,5 @@ tbd
 
 ## Questions? 
 
-Ask now, before we jump to the next section.
+<em class="yellow">Ask now, before we jump to the next section.</em>
 

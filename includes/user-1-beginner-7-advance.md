@@ -5,7 +5,7 @@
 
 ## User Interface Redux
 
-Become more powerful and efficient with: 
+Become more powerful and efficient with:
 
 - Navigation bars
 - Favorites
@@ -84,51 +84,34 @@ Note:
 
 ##  Notifications
 
+TBD 
 owner emails
 
 watching
 
 
-## Monitors
+## Monitoring
 
+- Charts
+- Thresholds
 - Auto Repair
 - Auto Replace
 
 ## Autoscale
 
-tbd
+TBD
 
 
-## Load Balancer LB
+## Lots More for Advanced Usage
 
-Front-end for redundant computes
+- Load Balancer LB
+- Fully Qualified Domain Name FQDN
+- Attachments
+- Control Environment
+- Repeated Deployments
+- Logs
 
-Port mapping
-
-
-## Fully Qualified Domain Name FQDN
-
-Public, static hostname for platform
-
-
-## Attachments
-
-tbd
-
-
-## Control Environment
-
-What is it and why is it important
-
-
-## Repeated Deployments
-
-Design and environment changes
-
-
-## Troubleshooting
-
-Reading logs, .. 
+Let's explore later if time permits.
 
 
 ## Administration
@@ -154,10 +137,10 @@ Note:
 
 All on [GitHub/oneops](http://github.com/oneops).
 
-> Become a contributor! We would love for you to join us!
+<em class="yellow">Become a contributor! We would love for you to join us!</em>
 
 
 ## Questions?
 
-Ask now, before we jump to the next section.
+<em class="yellow">Ask now, before we jump to the next section.</em>
 

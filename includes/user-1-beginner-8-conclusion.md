@@ -7,11 +7,11 @@
 
 Your own
 
-_Platform as a Service_
+<em class="yellow">Platform as a Service</em> 
 
 for all your
 
-_Cloud Application Lifecycle Management_.
+<em class="yellow">Cloud Application Lifecycle Management</em>.
 
 
 ## Advantages
@@ -31,7 +31,7 @@ _Cloud Application Lifecycle Management_.
 - Usage and cost reporting
 - Policy management
 
-Huge gains in efficiency and versatility!
+<em class="yellow">Huge gains in efficiency and versatility!</em>
 
 
 ## Now Use It
@@ -52,15 +52,15 @@ Huge gains in efficiency and versatility!
 - Pack development
 - OneOps development 
 
-> Become an expert!
+<em class="yellow">Become an expert!</em>
 
 
 ## Learn More
 
-- [Website at http://oneops.com](http://oneops.com)
-- [Live chat on http://oneops.slack.com](http://oneops.slack.com)
-- [Video channel on YouTube](https://www.youtube.com/channel/UCajgVCGqZ2M9RhULR8Q5Iww)
-- [Source code at http://github.com/oneops](http://github.com/oneops)
+- Website at [http://oneops.com](http://oneops.com)
+- Live chat on [http://oneops.slack.com](http://oneops.slack.com)
+- Video channel [on YouTube](https://www.youtube.com/channel/UCajgVCGqZ2M9RhULR8Q5Iww)
+- Source code at [http://github.com/oneops](http://github.com/oneops)
 
 
 ## More Training
@@ -69,7 +69,10 @@ Huge gains in efficiency and versatility!
 - Advanced user training
 - Admin and developer training
 
-> See you next time.
-
 Note: 
 planning and working on those
+
+
+## Thank you
+
+<em class="yellow">and see you next time!</em>
