@@ -76,8 +76,6 @@ Note:
 
 ## Optional Components
 
-Add _user_ component for our application
-
 Add _artifact_ component for our application
 
 Note:

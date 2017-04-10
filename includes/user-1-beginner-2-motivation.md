@@ -63,7 +63,7 @@ Note:
 - Private cloud: only available to you, owned by third party or yourself <!-- .element: class="fragment" -->
 - Mixed <!-- .element: class="fragment" -->
 
-<em class="yellow">Only mixed is truly competitive and possible on a large scale</em>
+<em class="yellow">Only mixed is truly competitive and possible on a large scale</em><!-- .element: class="fragment" -->
 
 
 ## Cloud Application Architecture
@@ -95,7 +95,7 @@ Learn more e.g. at [https://12factor.net/](https://12factor.net/)
 - Reduced complexity per application container
 - Economies of scale
 
-Typically utilization is raised from around 20% to 90%.
+<em class="yellow">Typically utilization is raised from around 20% to 90%.</em>
 
 
 ## Cloud Provider
@@ -121,7 +121,7 @@ Or your own provider using
 - Different advantages over time and location
 - Varying stability and up-time
 
-Hence, choose none and use all of them.
+<em class="yellow">Hence, choose none and use all of them.</em>
 
 Note:
 - using multiple clouds is necessary but expensive
@@ -137,6 +137,6 @@ Abstracts your application from a specific cloud:
 > Design your application once and run and manage in any cloud.
 
 
-## Questions? 
+## Questions?
 
 <em class="yellow">Ask now, before we jump to the next section.</em>

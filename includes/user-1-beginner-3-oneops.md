@@ -3,13 +3,13 @@
 > Cloud Application Lifecycle Management Tool <br> a.k.a. your own PaaS
 
 
-## Translation
+## What Does that Really Mean?
+
+OneOps allows you to:
 
 Design and manage your application <br>
 throughout it's lifecycle<br>
  on your own cloud platforms of choice.<br> 
- 
-<h2 class="yellow">OneOps</h2>d
 
 
 ## OneOps User
@@ -60,7 +60,7 @@ Level 1 - Beginner
 
 - Username and password
 - Access level depends on your account
-- Organization specific view 
+- Organization-specific view 
 
 Note:
 - Active directory or similar credentials depending on OneOps config
