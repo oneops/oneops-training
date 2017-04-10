@@ -5,9 +5,7 @@
 
 ## Assembly
  
-- Defines the design of your system
-
-> Your cloud application!
+Defines the design of your system
 
 Note: 
 - demo creating an assembly, navigate to assemblies and press new
@@ -50,8 +48,6 @@ Note:
 
 Building blocks of platforms.
 
-Examples:
-
 - Compute
 - OS
 - Java
@@ -74,6 +70,7 @@ Look at various aspects:
 - Platforms
 
 Note:
+- Demo
 - All changes are version controlled.
 
 

@@ -7,12 +7,12 @@
 
 Defines your application runtime scenarios with regards to
 
-- security,
-- reliability,
-- scalability,
-- and availability mode.
+- Security,
+- Reliability,
+- Scalability,
+- and Availability Mode.
 
-"How and where to deploy and run"
+<em class="yellow">How and where to deploy and run.</em>
 
 
 ## Creating Environments
@@ -42,11 +42,11 @@ Note:
 
 ## Clouds
 
-- Number of compute is per cloud
-- Choose your cloud
-  - Capacity 
-  - Latency
-  - OS availability
+Choose your cloud:
+
+- Capacity 
+- Latency
+- OS availability
 
 
 ## Environment Details
