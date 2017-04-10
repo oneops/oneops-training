@@ -19,8 +19,6 @@ Note:
 
 Platforms define the parts of your assembly.
 
-Examples:
-
 - Apache Tomcat
 - Apache HTTP Server
 - Nodejs
@@ -79,9 +77,9 @@ Note:
 - All changes are version controlled.
 
 
-## Optional Component
+## Optional Components
 
-TBD do we need to add user? 
+Add _user_ component for our application
 
 Add _artifact_ component for our application
 
@@ -102,6 +100,9 @@ Note:
 
 Review and Commit
 
+Note:
+- Demo with diff view
+
 
 ## Design Recap
 
@@ -109,7 +110,7 @@ Review and Commit
 - Select from a library of platform packs
 - Fine-tune components of each platform
 
-All independent of target cloud!
+<em class="yellow">All independent of target cloud!</em>
 
 
 ## Questions? 
