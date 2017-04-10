@@ -38,10 +38,11 @@ All content is ideally kept in markdown files in the `includes` folder with the 
 - speaker notes follow after `Note:`
 
 You can include one or more markdown files in the main html page for each slideshow in the project
-root folder. Most decks just include one for now.
+root folder.
 
 More information:
 
 - example.html for options to write content with HTML, embedded markdown and external markdown from include folder
 - [reveal.js documentation](https://github.com/hakimel/reveal.js/) for info on writing and other details
 - [keyboard shorts](https://github.com/hakimel/reveal.js/wiki/Keyboard-Shortcuts) for presenting
+- [theme guide](https://github.com/hakimel/reveal.js/blob/master/css/theme/README.md) if you want to change the CSS
