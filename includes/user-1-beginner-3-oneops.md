@@ -101,15 +101,16 @@ Note:
 
 OneOps is a multi-tenant application:
 
-- Profile
-- Teams
-- Users
-- Environments
-- Notifications
-- Policies
+- Summary
+- Deployments
+- Procedures
+- Reports
+- Health
+- Search
 
 Note:
-- beyond scope of this class
+- Demo
+- reports tab for quota and computes
 
 
 ## Administrative User

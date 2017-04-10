@@ -73,6 +73,6 @@ Note:
 planning and working on those
 
 
-## Thank you
+## Thank You
 
 <em class="yellow">and see you next time!</em>
