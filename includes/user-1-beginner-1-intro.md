@@ -5,9 +5,9 @@
 
 ## Training Overview
 
-- Learn about cloud application <!-- .element: class="fragment" -->
-- Introduction to OneOps <!-- .element: class="fragment" -->
-- Know how to use OneOps <!-- .element: class="fragment" -->
+- Learn about cloud application
+- Introduction to OneOps
+- Know how to use OneOps
 
 
 ## Exclusions
@@ -48,10 +48,10 @@ Note:
 
 ## Course Mechanics
 
-- Three one hour long sessions with breaks <!-- .element: class="fragment" -->
-- Sit back and watch instructor demos <!-- .element: class="fragment" -->
-- Ask questions any time <!-- .element: class="fragment" -->
-- Reproduce after class at your own pace <!-- .element: class="fragment" -->
+- Three one hour long sessions with breaks
+- Sit back and watch instructor demos
+- Ask questions any time
+- Reproduce after class at your own pace
 
 Note:
 - Remind people to mute their audio line
@@ -73,9 +73,9 @@ but pay attention! <!-- .element: class="fragment" -->
 
 ## Please Interrupt Me
 
-- Speak up <!-- .element: class="fragment" -->
-- Ask on chat <!-- .element: class="fragment" -->
-- There is time for questions <!-- .element: class="fragment" -->
+- Speak up
+- Ask on chat
+- There is time for questions
 
 
 ## Questions? 

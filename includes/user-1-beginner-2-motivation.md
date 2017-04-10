@@ -22,11 +22,11 @@ What do you mean by _Cloud_ though?
 
 Principles:
 
-- Automated - Hands off! <!-- .element: class="fragment" -->
-- Instrumented - What's going on? <!-- .element: class="fragment" -->
-- Resilient - Failure is planned for. <!-- .element: class="fragment" -->
-- Adaptive - Change is inevident. <!-- .element: class="fragment" -->
-- Secure - A must. <!-- .element: class="fragment" -->
+- <div>Automated - <em class="yellow">Hands off!</em></div> <!-- .element: class="fragment" -->
+- <div>Instrumented - <em class="yellow">What's going on?</em></div> <!-- .element: class="fragment" -->
+- <div>Resilient - <em class="yellow">Failure is planned for.</em></div> <!-- .element: class="fragment" -->
+- <div>Adaptive - <em class="yellow">Change is inevident.</em></div> <!-- .element: class="fragment" -->
+- <div>Secure - <em class="yellow">A must.</em></div> <!-- .element: class="fragment" -->
 
 Note:
 - beyond the buzz around cloud
@@ -35,11 +35,11 @@ Note:
 
 ## Five Essential Cloud Characteristics
 
-- On-demand self-service - get it going fast<!-- .element: class="fragment" -->
-- Broad network access - access from anywhere with anything <!-- .element: class="fragment" -->
-- Resource pooling - be efficient <!-- .element: class="fragment" -->
-- Rapid elasticity - scale up and down <!-- .element: class="fragment" -->
-- Measured service - measure and then pay per use<!-- .element: class="fragment" -->
+- <div>On-demand self-service - <em class="yellow">Get it going fast.</em></div><!-- .element: class="fragment" -->
+- <div>Broad network access - <em class="yellow">Access from anywhere with anything.</em></div> <!-- .element: class="fragment" -->
+- <div>Resource pooling - <em class="yellow">Be efficient.</em></div> <!-- .element: class="fragment" -->
+- <div>Rapid elasticity - <em class="yellow">Scale up and down.</em></div> <!-- .element: class="fragment" -->
+- <div>Measured service - <em class="yellow">Measure and then pay per use.</em></div><!-- .element: class="fragment" -->
 
 Note:
 - from NIST http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf
@@ -47,9 +47,9 @@ Note:
 
 ## Three Cloud Service Delivery Methods
 
-- Software as a Service __SaaS__ <br> "Consume cloud applications." 
-- Platform as a Service __PaaS__ <br> "Leverage the cloud for your own applications." 
-- Infrastructure as a Service __IaaS__ <br> "Be a cloud." 
+- Software as a Service __SaaS__ <br><em class="yellow">Consume cloud applications.</em>
+- Platform as a Service __PaaS__ <br><em class="yellow">Leverage the cloud for your own applications.</em>
+- Infrastructure as a Service __IaaS__ <br><em class="yellow">Be a cloud.</em>
 
 Note:
 - SaaS is not enough, you don't control the application
@@ -63,7 +63,7 @@ Note:
 - Private cloud: only available to you, owned by third party or yourself <!-- .element: class="fragment" -->
 - Mixed <!-- .element: class="fragment" -->
 
-> Only mixed is truly competitive and possible on a large scale
+<em class="yellow">Only mixed is truly competitive and possible on a large scale</em>
 
 
 ## Cloud Application Architecture
@@ -79,7 +79,7 @@ Note:
 ## Cloud Application Architecture
 
 - Application is collection of services
-- Many small servers with single purpose
+- Many small servers with single purpose each
 - Load balanced across servers
 - Decoupled data from servers
 - Concurrency for scale
