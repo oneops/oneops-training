@@ -5,6 +5,10 @@ Slide decks for OneOps training classes, presentations and videos.
 
 ## Presenting
 
+You can use the GitHub pages hosted version of the slides available at
+[http://oneops.com/oneops-training](http://oneops.com/oneops-training) or you can clone the repo locally and present
+from your computer.
+
 Run the directory of this repo via a webserver to use the slides e.g. with
 
 ```
