@@ -88,7 +88,7 @@ Note:
 - Install Dir /app/jpetstore
 - Deploy as user app
 - Deploy as group  app
-- restart execute `ln -s /app/jpetstore/current /opt/tomcat7/webapps/petstore`
+- restart set to "execute `ln -s /app/jpetstore/current /opt/tomcat7/webapps/petstore`"
 
 
 ## And Finally
