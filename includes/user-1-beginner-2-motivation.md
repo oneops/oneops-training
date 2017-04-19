@@ -25,7 +25,7 @@ Principles:
 - <div>Automated - <em class="yellow">Hands off!</em></div> <!-- .element: class="fragment" -->
 - <div>Instrumented - <em class="yellow">What's going on?</em></div> <!-- .element: class="fragment" -->
 - <div>Resilient - <em class="yellow">Failure is planned for.</em></div> <!-- .element: class="fragment" -->
-- <div>Adaptive - <em class="yellow">Change is inevident.</em></div> <!-- .element: class="fragment" -->
+- <div>Adaptive - <em class="yellow">Change is inevitable.</em></div> <!-- .element: class="fragment" -->
 - <div>Secure - <em class="yellow">A must.</em></div> <!-- .element: class="fragment" -->
 
 Note:
