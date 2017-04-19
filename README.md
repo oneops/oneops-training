@@ -46,7 +46,7 @@ root folder.
 
 ## Images
 
-Due to the target screen resolution of 720p and the space allocated for header and footer, images should be using a max width of 1000 px and/or a max height of 550px.
+Due to the target screen resolution of 720p and the space allocated for header and footer, images should be using a max width of 1000 px and/or a max height of 500px.
 
 ## More Information:
 
