@@ -44,7 +44,11 @@ All content is ideally kept in markdown files in the `includes` folder with the 
 You can include one or more markdown files in the main html page for each slideshow in the project
 root folder.
 
-More information:
+## Images
+
+Due to the target screen resolution of 720p and the space allocated for header and footer, images should be using a max width of 1000 px and/or a max height of 550px.
+
+## More Information:
 
 - example.html for options to write content with HTML, embedded markdown and external markdown from include folder
 - [reveal.js documentation](https://github.com/hakimel/reveal.js/) for info on writing and other details
