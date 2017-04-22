@@ -86,34 +86,22 @@ Note:
 ##  Notifications
 
 - Owner email
-- Notifications in phases
+- Relays for environments
 
 Note:
 - Demo it
 
 
-## Monitoring
-
-- Tab in component 
-- Charts
-- Thresholds
-- Enables Auto Repair and Auto Replace
-
-Note: 
-- Demo it
-
-
 ## Lots More for Advanced Usage
 
-- Auto Scale
+- Monitoring
+- Auto Repair and Auto Replace
 - Load Balancer LB
 - Fully Qualified Domain Name FQDN
-- Attachments
-- Control Environment
 - Repeated Deployments
 - Logs
 
-Let's explore later, if time permits.
+Join the advanced class to learn more.
 
 
 ## Administration

@@ -20,7 +20,7 @@ for all your
 - Many different applications
 - Many deployment options and clouds
 - Low effort management
-- Auto-scale, Auto-repair, ...
+- Auto-repair, Auto-replace, ...
 
 
 ## More Advantages

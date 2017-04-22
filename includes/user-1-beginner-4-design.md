@@ -20,7 +20,6 @@ Platforms define the parts of your assembly.
 - Apache Tomcat
 - Apache HTTP Server
 - Nodejs
-- Cassandra
 - Couchbase
 - ElasticSearch
 - Custom

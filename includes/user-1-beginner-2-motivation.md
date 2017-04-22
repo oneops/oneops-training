@@ -78,7 +78,7 @@ Note:
 
 ## Cloud Application Architecture
 
-- Application is collection of services
+- Application is a collection of services
 - Many small servers with single purpose each
 - Load balanced across servers
 - Decoupled data from servers
