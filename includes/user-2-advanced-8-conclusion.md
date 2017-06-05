@@ -7,10 +7,10 @@
 
 As advanced user you,
 
-- know how to create complex assemblies
-- understand usage of many components
-- use multiple environments
-- deploy releases to operation without downtime
+- know how to create complex assemblies,
+- understand usage of many components,
+- use multiple environments,
+- and deploy releases to operation without downtime.
 
 
 ## Next Step
