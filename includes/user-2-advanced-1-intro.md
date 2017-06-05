@@ -5,14 +5,16 @@
 
 ## Training Overview
 
-- TBD
+- Better design knowledge for your assemblies
+- Advanced environment usage in transition
+- Successfully releasing to and working with operation
 
 
 ## Exclusions
 
 - Installing and running OneOps <!-- .element: class="fragment" -->
 - Developing for OneOps <!-- .element: class="fragment" -->
-- Any more TBD ? <!-- .element: class="fragment" -->
+- Infrastructure behind and around OneOps usage <!-- .element: class="fragment" -->
 
 
 ## Goals and Objectives
@@ -23,9 +25,7 @@ At the end of this class, you should: <!-- .element: class="fragment" -->
 - Better understand more platforms and components <!-- .element: class="fragment" -->
 - Configure networking aspects for assembly <!-- .element: class="fragment" -->
 - Manage design changes across various environments <!-- .element: class="fragment" -->
-- TBD <!-- .element: class="fragment" -->
-
-Note:
+- Release changes to operation without downtime <!-- .element: class="fragment" -->
 
 
 ## Instructors
@@ -53,7 +53,9 @@ Note:
 
 ## Prerequisites
 
-You should have attended __Level 1 - Beginner__, <!-- .element: class="fragment" --> 
+You should have attended <!-- .element: class="fragment" -->
+
+__Level 1 - Beginner,__ <!-- .element: class="fragment" -->
 
 and pay attention! <!-- .element: class="fragment" -->
 
