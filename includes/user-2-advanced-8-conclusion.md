@@ -3,9 +3,28 @@
 > And what is next...
 
 
-## TBD
+## Summary
 
-tbd
+As advanced user you,
+
+- know how to create complex assemblies
+- understand usage of many components
+- use multiple environments
+- deploy releases to operation without downtime
+
+
+## Next Step
+
+<em class="yellow">Now that you are an advanced user:</em>
+
+- Dive even deeper into OneOps
+- Learn administrator usage
+- And OneOps development
+- Understand all the tools around OneOps
+  - cloud provider
+  - storage systems
+  - logging
+  - monitoring
 
 
 ## Learn More
@@ -21,9 +40,6 @@ tbd
 - Q & A sessions with OneOps team
 - Expert user training
 - Admin and developer training
-
-Note: 
-planning and working on those
 
 
 ## Thank You
