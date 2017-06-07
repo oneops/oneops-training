@@ -55,7 +55,7 @@ Note:
 
 You should have attended <!-- .element: class="fragment" -->
 
-__Level 1 - Beginner,__ <!-- .element: class="fragment" -->
+__OneOps User Training: Level 1 - Beginner,__ <!-- .element: class="fragment" -->
 
 and pay attention! <!-- .element: class="fragment" -->
 
