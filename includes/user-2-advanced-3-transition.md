@@ -1,45 +1,57 @@
 # Transition
 
-> tbd
+> Environments, Clouds and More in Depth
 
 
-## TBD
+## Environments
 
-- TBD
+Allow usage of same design for different purposes
+
+- scale
+- availability
+- cloud usage
+- dns
+- and component configuration!
+
+Note:
+- review override lock and such
 
 
-## Multiple Clouds
+## Cloud
 
-- primary,
-- secondary
-- disabled
+- primary /  secondary / unused
+- deployment order
+- scale
 
 
-## Cloud 
+## Cloud Configuration and Operations 
 
 - Secondary: _Disables_ the traffic
-- Ignore: Change _do not_ apply
+- Ignore: Changes _do not_ apply
 - Shutdown: _Decommission_ all the resources
 - Order: Sequence of operation
-- Scale: Increases/decrease the instances
-
-
-## 2-2-2
-
-What does that mean
-
-- 2 computes per platform
-- 2 clouds
-- 2 datacenters 
+- Scale: Increases/decrease the number of instances
 
 
 ## Best Practices
 
-- 2 x 2 x 2 minimum
-- But possible to run in one cloud at a time
-- Auto repair and auto replace on, with suitable times set up
+- 2 x 2 x 2
+  - But possible to run in one cloud at a time
+- Auto repair and auto replace on
+  - with suitable times set up
 - Configure smart ECV checks
-- Cloud and VM maintenance and  reboot possible any time
+- Expect "failure" - reboot possible any time
+  - cloud and VM maintenance
+  - real failures
+
+
+## 2 x 2 x 2 Minimum
+
+What does that mean?
+
+- 2 computes per platform
+- 2 clouds
+- 2 datacenters
 
 
 ## Avoid!
@@ -48,10 +60,26 @@ What does that mean
 - No pet VM's
 
 
-## Environments for Different Purposes
+## Rolling out Changes
 
-- multiple environments, testing in one and then rolling to other , eg. change java or tomcat version
-- also changes such as delete an environment is a release
+Changes:
+
+- Pack pull in design
+- Design change
+- Design pull in transition
+- Config change in transition
+
+All are committed and create a release, and in transition a deployment.
+
+## Destructive Changes
+
+- Removed platform
+- Removed component
+- Removed config
+- Delete cloud
+- Reduced scale
+
+All are committed and performed via release and deployment.
 
 
 ## Questions? 

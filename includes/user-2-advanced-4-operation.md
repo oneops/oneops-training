@@ -1,6 +1,6 @@
 # Operation
 
-> tbd
+> Running and Updating Assemblies Successfully
 
 
 ## Log
@@ -94,7 +94,6 @@ repeated deployment with design change, environment config lock, pull design, co
 - Execute the same for Green environment
 - Torbit can be leveraged to control traffic
 - This minimizes change/release rollback significantly
-
 
 
 ## Questions? 

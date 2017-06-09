@@ -1,54 +1,108 @@
 # Design
 
-> tbd
+> Higher complexity,
+
+> More platform and component knowledge
 
 
 ## Assembly Design
 
-- complex assemblies with multiple platforms
-- complex platforms
-- one assembly vs multiple assemblies
+How to tackle more complex scenarios? 
+
+- Front-end app
+- Backend service app
+- DB storage
+- Logging
+- ...
 
 
-## Network
+## Separate Assemblies
 
-- lb
-- fqdn
-- ssl certificates, lbcert component
-- ecv check
+- Only API dependencies
+- Different teams
+- Different release cycles
+- Hence deployment cycles
+
+Note:
+- e.g. OneOps core, inductor and others
+- offers pretty complete separation
+
+
+## Multiple Different Platforms
+
+Use different platforms:
+
+- apache
+- tomcat
+- kibana
+- rails
+
+Note: 
+- e.g. OneOps core
+
+
+## Multiple Configuration of Platform
+
+Use differently configured platforms:
+
+- tomcat front end app
+- tomcat web services app
+- tomcat for admin user interface app 
+
+Note:
+eg. OneOps core has multiple of postgres, tomcat and elasticsearch
+
+
+## Characteristics
+
+Each platform has its own configuration including
+
+- Component configuration
+- Optional component usage
+- Scaling per environment
+
+
+## Network Configuration
+
+A number of components involved:
+
+- Load balancer `lb`
+- Fully qualified domain name `fqdn`
+- SSL certificates `certificate`
+- Combination `lb-certificate` component
+
+Note:
+- difference between fqdn and hostname ?? TBH
 
 
 ## Key Properties for Resiliency
 
 load balanacer `lb` component:
 
-- ECV
 - LB Method
-- Listeners
-
-
-- VM (least preferred)
-  - __NO NO__ IPs
-  - Hostname - platform must include a hostname component
-
-- Load balancer
-  - LB methods prefer to be least connection
-  - Must have a smart ECV check
+  - round robin
+  - least connection (preferred)
+- ECV check should be smart
   - ECV should not just return 200 as ping
-  - Ability to validate from a downstream app
-  - Ability to respond non 200 when down stream apps are SLOW or DOWN
 
-- Have your ecv depends upon downstream critical apps
+
+## ECV Across Apps
+
+- Ability to validate from a downstream app
+- Ability to respond non 200 when down stream apps are SLOW or DOWN
+- ECV should depend upon downstream critical apps
 - Enables auto failover entire stack based upon hard dependencies
 
+Note: 
+downstream? why not upstream
 
-## What is a VIP?
+## VIP and lb?
 
 [Virtual IP Address](https://en.wikipedia.org/wiki/Virtual_IP_address)
 
 An IP address that points to a load balancer.
 
-When you use an lb component in OneOps it is creating one or more
+When you use an `lb` component in OneOps, it is creating one or more
 VIPs.
 
 
@@ -64,8 +118,11 @@ configure either proximity or round robin
 
 We use "proximity"
 
+Note:
+- what to do with this slide? 
 
-## FQDN
+
+## Fully Qualified Domain Name
 
 - Enable GSLB with Proximity
 - This ensures DC stickiness from caller app to receiver app
@@ -75,9 +132,33 @@ We use "proximity"
 - Should not be used for FQDN with multiple VMs which could return/resolve unavailable VM
 
 
+## Custom Platforms
+
+- Custom
+- Custom with LB
+- Write your own pack
+- In future - Ansible
+
+
+## Custom with LB
+
+- Bare bones node
+- optional components to add features
+
+
 ## Other Components
 
+- artifact
+- build
+- daemon
+- download
+- file
+- firewall
+- keystore
 - secgroup
+- share
+- storage
+- volume
 
 
 ## Questions? 
