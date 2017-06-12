@@ -62,6 +62,13 @@ Each platform has its own configuration including
 - Scaling per environment
 
 
+## More Platform Information
+
+- Explore owner, documentation, usage and more in Catalog
+- Understand platform diagram
+- Look at the [circuit source](https://github.com/oneops/circuit-oneops-1/)
+
+
 ## Network Configuration
 
 A number of components involved:
