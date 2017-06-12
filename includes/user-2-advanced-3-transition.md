@@ -23,15 +23,26 @@ Note:
 - deployment order
 - scale
 
+All during creation.
+
+Note:
+- Demo
 
 ## Cloud Configuration and Operations 
 
-- Secondary: _Disables_ the traffic
-- Ignore: Changes _do not_ apply
-- Shutdown: _Decommission_ all the resources
-- Order: Sequence of operation
-- Scale: Increases/decrease the number of instances
+- Secondary:
+  - _Disables_ the traffic
+- Ignore: 
+  - Changes _do not_ apply
+- Shutdown: 
+  - _Decommission_ all the resources
+  - Easily turn on again
+- Order: 
+  - Sequence of release deployments
+- Scale: 
+  - Increases/decrease the number of instances
 
+Configure per environment in transition!
 
 ## Best Practices
 

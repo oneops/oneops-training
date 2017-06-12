@@ -64,7 +64,7 @@ Each platform has its own configuration including
 
 ## More Platform Information
 
-- Explore owner, documentation, usage and more in Catalog
+- Catalogs - owner, documentation, usage, ...
 - Understand platform diagram
 - Look at the [circuit source](https://github.com/oneops/circuit-oneops-1/)
 
@@ -136,11 +136,12 @@ TBD - check, understand and update as needed
 ## Fully Qualified Domain Name
 
 - Enable GSLB with Proximity
-- This ensures DC stickiness from caller app to receiver app
+- Ensures data center stickiness
 - Ensure gdns checked
-- It's a DNS alias for VIPs/VMs
-- When used without LB it does not check the availability of the VM
-- Should not be used for FQDN with multiple VMs which could return/resolve unavailable VM
+  - It's a DNS alias for VIPs/VMs
+- Does not check the availability of the VM without lb usage
+- Do not use for FQDN with multiple VMs
+  - could return/resolve unavailable VM
 
 Note:
 TBD - review and sort out
@@ -176,7 +177,7 @@ But be careful - flexibility generates complexity!
 - storage
 - volume
 
-And many more.
+And many more!
 
 
 ## Questions? 
