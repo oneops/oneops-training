@@ -34,14 +34,14 @@ Use different platforms:
 
 - apache
 - tomcat
-- kibana
 - rails
+- ...
 
 Note: 
 - e.g. OneOps core
 
 
-## Multiple Configuration of Platform
+## Multiple Platform Configurations
 
 Use differently configured platforms:
 
@@ -68,6 +68,9 @@ Each platform has its own configuration including
 - Understand platform diagram
 - Look at the [circuit source](https://github.com/oneops/circuit-oneops-1/)
 
+Note: 
+Demo it all
+
 
 ## Network Configuration
 
@@ -84,49 +87,50 @@ Note:
 
 ## Key Properties for Resiliency
 
-load balanacer `lb` component:
+Load balancer `lb` component:
 
 - LB Method
   - round robin
   - least connection (preferred)
-- ECV check should be smart
-  - ECV should not just return 200 as ping
+- Extended Content Verification ECV
+  - should be smart
+  - should not just return 200 as ping
 
 
-## ECV Across Apps
+## Ideally ECV Across Apps
 
 - Ability to validate from a downstream app
 - Ability to respond non 200 when down stream apps are SLOW or DOWN
 - ECV should depend upon downstream critical apps
 - Enables auto failover entire stack based upon hard dependencies
+- Within and beyond assembly
 
 Note: 
-downstream? why not upstream
+TBD downstream? why not upstream
 
-## VIP and lb?
 
-[Virtual IP Address](https://en.wikipedia.org/wiki/Virtual_IP_address)
+## Virtual IP Address VIP and lb
 
-An IP address that points to a load balancer.
+VIP - an IP address that points to a load balancer.
 
 When you use an `lb` component in OneOps, it is creating one or more
 VIPs.
 
 
-## What is a GSLB?
+## Global server load balancer GSLB?
 
-Global server load balancer, at Walmart GSLB maps to DNS.
+ Load balancing across clouds, e.g. can map to to DNS.
 
 *electrode-nodejs.prod-a.home.globalproducts.glb.prod.walmart.com*
 
 nslookup will query DNS
 
-configure either proximity or round robin
+Can configure either proximity or round robin
 
 We use "proximity"
 
 Note:
-- what to do with this slide? 
+TBD - check, understand and update as needed
 
 
 ## Fully Qualified Domain Name
@@ -137,6 +141,9 @@ Note:
 - It's a DNS alias for VIPs/VMs
 - When used without LB it does not check the availability of the VM
 - Should not be used for FQDN with multiple VMs which could return/resolve unavailable VM
+
+Note:
+TBD - review and sort out
 
 
 ## Custom Platforms
@@ -150,7 +157,9 @@ Note:
 ## Custom with LB
 
 - Bare bones node
-- optional components to add features
+- Optional components to add features
+
+But be careful - flexibility generates complexity!
 
 
 ## Other Components
@@ -166,6 +175,8 @@ Note:
 - share
 - storage
 - volume
+
+And many more.
 
 
 ## Questions? 
