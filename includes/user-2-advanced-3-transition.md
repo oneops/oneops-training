@@ -17,32 +17,46 @@ Note:
 - review override lock and such
 
 
-## Cloud
+## Cloud Characteristics
+
+In OneOps:
 
 - primary /  secondary / unused
 - deployment order
 - scale
 
-All during creation.
+In underlying cloud provider:
 
-Note:
-- Demo
+- available instance types
+- available operating systems
+- ...
 
-## Cloud Configuration and Operations 
+
+## Cloud Creation
 
 - Secondary:
   - _Disables_ the traffic
+- Order:
+  - Sequence of release deployments
+- Scale:
+  - Increases/decrease the number of instances
+
+Configure __per environment at creation!__
+
+
+## Cloud Configuration and Changes
+
+- Make Primary/Secondary
+  - Enable/disable traffic
 - Ignore: 
   - Changes _do not_ apply
 - Shutdown: 
   - _Decommission_ all the resources
   - Easily turn on again
-- Order: 
-  - Sequence of release deployments
-- Scale: 
-  - Increases/decrease the number of instances
+- Change order and scale
 
-Configure per environment in transition!
+Configure __per environment per platform in transition!__
+
 
 ## Best Practices
 
@@ -67,8 +81,9 @@ What does that mean?
 
 ## Avoid!
 
-- Dependency on specific rack
-- No pet VM's
+- Dependency on specific rack, hardware, ...
+- No reliance on specific VMs = no pets!
+- No IP number usage
 
 
 ## Rolling out Changes
@@ -81,6 +96,7 @@ Changes:
 - Config change in transition
 
 All are committed and create a release, and in transition a deployment.
+
 
 ## Destructive Changes
 
