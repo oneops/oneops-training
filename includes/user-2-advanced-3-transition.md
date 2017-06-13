@@ -76,10 +76,10 @@ What does that mean?
 
 - 2 computes per platform
 - 2 clouds
-- 2 datacenters
+- 2 data centers
 
 
-## Avoid!
+## Practices to Avoid
 
 - Dependency on specific rack, hardware, ...
 - No reliance on specific VMs = no pets!
@@ -88,14 +88,14 @@ What does that mean?
 
 ## Rolling out Changes
 
-Changes:
-
 - Pack pull in design
 - Design change
 - Design pull in transition
-- Config change in transition
+- Configuration change in transition
 
-All are committed and create a release, and in transition a deployment.
+All are committed and create a release,
+
+and in transition create a deployment.
 
 
 ## Destructive Changes
@@ -106,7 +106,7 @@ All are committed and create a release, and in transition a deployment.
 - Delete cloud
 - Reduced scale
 
-All are committed and performed via release and deployment.
+All are __committed__ and performed via __release and deployment__.
 
 
 ## Questions? 
