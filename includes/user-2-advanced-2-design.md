@@ -22,6 +22,8 @@ How to tackle more complex scenarios?
 - Different teams
 - Different release cycles
 - Hence deployment cycles
+- Distinct sub-systems
+- Reduced complexity per assembly
 
 Note:
 - e.g. OneOps core, inductor and others
@@ -34,7 +36,7 @@ Use different platforms:
 
 - apache
 - tomcat
-- rails
+- nodejs
 - ...
 
 Note: 
@@ -50,16 +52,19 @@ Use differently configured platforms:
 - tomcat for admin user interface app 
 
 Note:
-eg. OneOps core has multiple of postgres, tomcat and elasticsearch
+- eg. OneOps core has multiple of postgres, tomcat and elasticsearch
+- depending on scale separate assemblies might also make sense
 
 
 ## Characteristics
 
-Each platform has its own configuration including
+Each platform has separate
 
 - Component configuration
 - Optional component usage
-- Scaling per environment
+- Environment configuration
+  - cloud selection
+  - scale
 
 
 ## More Platform Information
@@ -69,7 +74,8 @@ Each platform has its own configuration including
 - Look at the [circuit source](https://github.com/oneops/circuit-oneops-1/)
 
 Note: 
-Demo it all
+- Demo it all
+- Quality of data varies
 
 
 ## Network Configuration
@@ -80,9 +86,10 @@ A number of components involved:
 - Fully qualified domain name `fqdn`
 - SSL certificates `certificate`
 - Combination `lb-certificate` component
+- `hostname` component
 
 Note:
-- difference between fqdn and hostname ?? TBH
+- explain and maybe show all of them a bit
 
 
 ## Key Properties for Resiliency
@@ -93,20 +100,8 @@ Load balancer `lb` component:
   - round robin
   - least connection (preferred)
 - Extended Content Verification ECV
-  - should be smart
-  - should not just return 200 as ping
 
-
-## Ideally ECV Across Apps
-
-- Ability to validate from a downstream app
-- Ability to respond non 200 when down stream apps are SLOW or DOWN
-- ECV should depend upon downstream critical apps
-- Enables auto failover entire stack based upon hard dependencies
-- Within and beyond assembly
-
-Note: 
-TBD downstream? why not upstream
+Note:
 
 
 ## Virtual IP Address VIP and lb
@@ -117,41 +112,28 @@ When you use an `lb` component in OneOps, it is creating one or more
 VIPs.
 
 
-## Global server load balancer GSLB?
+## Global server load balancer GSLB
 
- Load balancing across clouds, e.g. can map to to DNS.
+Load balancing across clouds, 
 
-*electrode-nodejs.prod-a.home.globalproducts.glb.prod.walmart.com*
-
-nslookup will query DNS
-
-Can configure either proximity or round robin
-
-We use "proximity"
-
-Note:
-TBD - check, understand and update as needed
+- E.g. can map to DNS.
+- Configured for proximity
+  - Datacenter stickiness
+  - Reduce latency
+  - Increase performance
 
 
 ## Fully Qualified Domain Name
 
 - Enable GSLB with Proximity
-- Ensures data center stickiness
 - Ensure gdns checked
-  - It's a DNS alias for VIPs/VMs
-- Does not check the availability of the VM without lb usage
-- Do not use for FQDN with multiple VMs
-  - could return/resolve unavailable VM
-
-Note:
-TBD - review and sort out
 
 
 ## Custom Platforms
 
 - Custom
 - Custom with LB
-- Write your own pack
+- No recommended - write your own pack 
 - In future - Ansible
 
 
@@ -163,22 +145,36 @@ TBD - review and sort out
 But be careful - flexibility generates complexity!
 
 
-## Other Components
+## Resource Components
 
-- artifact
-- build
-- daemon
-- download
-- file
-- firewall
-- keystore
-- secgroup
-- share
-- storage
-- volume
+- `artifact` from repository manager
+- `download` from any URL
+- `file` provide actual content
 
-And many more!
 
+## Service Component
+
+`daemon` to automatically start application
+
+
+## Providing Room
+
+- `storage` determines size
+- `volume` mount storage to path
+
+
+## Variables
+
+Placeholders for values:
+
+- cloud variables
+- global per assembly
+- local per environment
+
+Use e.g. for version of artifact
+
+Note:
+- Demo
 
 ## Questions? 
 
