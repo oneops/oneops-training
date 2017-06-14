@@ -29,19 +29,27 @@ In underlying cloud provider:
 
 - available instance types
 - available operating systems
-- ...
+- available services
+- ... 
 
 
-## Cloud Creation
+## Cloud Selection
 
-- Secondary:
+- Primary:
+  - Use cloud now
+- SeondarSecondary:
+  - Mabe use cloud later
   - _Disables_ the traffic
 - Order:
   - Sequence of release deployments
+  - Important for roll out
 - Scale:
   - Increases/decrease the number of instances
 
 Configure __per environment at creation!__
+
+Note:
+- Demo environment creation with cloud selection and show
 
 
 ## Cloud Configuration and Changes
@@ -57,6 +65,10 @@ Configure __per environment at creation!__
 
 Configure __per environment per platform in transition!__
 
+Note:
+- Demo cloud operations in transition (see above)
+- and in operation (autorepair on/off)
+
 
 ## Best Practices
 
@@ -65,7 +77,8 @@ Configure __per environment per platform in transition!__
 - Auto repair and auto replace on
   - with suitable times set up
 - Configure smart ECV checks
-- Expect "failure" - reboot possible any time
+- Expect _failure_ 
+  - reboot possible any time
   - cloud and VM maintenance
   - real failures
 
@@ -77,6 +90,9 @@ What does that mean?
 - 2 computes per platform
 - 2 clouds
 - 2 data centers
+
+Note:
+Minimum - large systems can have 8 or more clouds 
 
 
 ## Practices to Avoid
@@ -93,9 +109,9 @@ What does that mean?
 - Design pull in transition
 - Configuration change in transition
 
-All are committed and create a release,
+All are __committed__ and __create a release__,
 
-and in transition create a deployment.
+and in transition __create a deployment__.
 
 
 ## Destructive Changes
@@ -106,7 +122,9 @@ and in transition create a deployment.
 - Delete cloud
 - Reduced scale
 
-All are __committed__ and performed via __release and deployment__.
+Again, all are __committed__ and __create a release__,
+
+and in transition __create a deployment__.
 
 
 ## Questions? 
