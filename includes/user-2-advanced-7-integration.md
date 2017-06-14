@@ -7,16 +7,20 @@
 
 - user authorization token 
 - querying
+- advanced search
 
 
 ## Boo
 
-tbd
+Commandline tool
+- provisioning 
+- configuration
 
 
 ## Continuous Deployment
 
-Jenkins plugin used in Looper
+- Jenkins plugin used in Looper
+- boo
 
 
 ## Questions? 

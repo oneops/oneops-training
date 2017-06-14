@@ -5,95 +5,135 @@
 
 ## Log
 
-how to look at logs, which logs 
+Various logs:
+
+- logs tab per platform and component in operation.
+- deployment log
+
+Separate log aggregation for 
+
+- accumulated information
+- analysis
+
+Note:
+TBD - is this useful at all, it doesnt seem so to me
 
 
-## Monitoring
+## Monitors
 
-- Tab in component 
-- Charts
-- Thresholds
-- Enables Auto Repair and Auto Replace
+- _monitors_ tab in component 
+- defined in design and transition
+- data available per instance in operation
+
+
+## Monitors in Operation
+
+Charts with
+
+- current and historic data
+- thresholds
+- heartbeat
 
 Note: 
 - Demo it
+
+
+## Heartbeat
+
+Used to signal component health.
+
+- e.g. ssh in compute
+- enables Auto Repair and Auto Replace
+
+
+## Monitor Configuration
+
+Let's have a look!
 
 
 ## Replace a Compute
 
 - flag for replacement
 - commit and deploy
-- does not affect other computes ?? 
-- is that right? test? 
+- can not have other pending changes
 
 
 ## Scaling
 
-Manual
-and maybe also talk about auto scale
+Manually With % Deploy
 
-<img src="images/scaling-ui.png"/>
+- Start with 10% of your instances get impacted
+- OO keeps track of which 10% rolled with new changes and apply remaining 10% and so on
+- Could be beneficial to apply just 1-2 VMs
 
-- With % Deploy
-  - Start with 10% of your instances get impacted
-  - OO keeps track of which 10% rolled with new changes and apply remaining 10% and so on
-  - Could be beneficial to apply just 1-2 VMs
+Note:
+See scaling control on environment transition config
 
 
 ## Resiliency Test
 
-- Carry out a periodic failover test every quarter
-  - Take one/many VMs thru __Auto Replace__
-  -  Make one cloud __Secondary__
-  -  During minimal traffic take one DC offline
-- Success criteria
-  - Respective monitoring tools notified
-  - Impact on availability Zero
-  - Impact on customer experience specifically buying flow Zero
-  - No engineer/devops/siteops intervention to do anything
-- If NOT fix and run it again until we have a success
+Carry out a periodic failover test every quarter
+
+- Take one/many VMs thru __Auto Replace__
+-  Make one cloud __Secondary__
+-  During minimal traffic take one DC offline
+
+Success criteria
+
+- Respective monitoring tools notified
+- No impact on availability
+- No impact on user experience
+- No manual intervention required
+
+Note:
+If NOT fix and run it again until we have a success
 
 
 ## Release Deployments
 
-repeated deployment with design change, environment config lock, pull design, commit and release, commit and deploy
+After having a resilient static setup,
+
+Next step is to upgrade/release without problems.
+
+- Zero Downtime
+- Canary
+- Blue/Green
+
+Note:
+- get detailed help with planning and test this
 
 
-## Deployment Procedures
+## Zero Downtime Deployment
 
-<img src="images/secondary-cloud.png"/>
+- One Environment
+- Multiple clouds
+- Switch clouds from primary to secondary
+- Apply changes to secondary
+- Verify secondary
+- Switch primary/secondary
+- Apply changes 
 
-- Cloud Status : __Primary/Secondary__
-  - Primary takes traffic either on LB/FQDN
-- Cloud Deployment: __1-x__
-  - Sequences the rollout starting with 1 to bigger numbers
-- Cloud Scale : __XX %__
-  - Add/reduce the no of instances by cloud
-
-## Zero Downtime Deploymen
-
-- Switching clouds from primary to secondary and rolling out, 
-- bind/unbind cloud
-- pull more from bootcamp-5 slide 
 
 ## Canary Deployment
 
-- Create a small PROD environment which may handle 4-5 % of daily traffic
+- Create a small PROD environment
+  - which may handle 4-5 % of daily traffic
 - Apply the new code version on this env first
-- Run thru live traffic validation to ensure no impact and meets the criteria
+- Run thru live traffic validation
+  - ensure no impact and meets the criteria
 - Apply the changes to PROD env
-- Leverage Torbit to control traffic to Canary env
+- Leverage DNS/LB to control traffic to Canary env
 
 
 ## Blue Green Deployment
 
-- Have two PROD environments always live with traffic
+- Two production environments always live with traffic
 - Take one of two e.g. Blue env out of traffic
 - Apply the code release and validate end to end
 - Enable Blue to traffic and have some soaking period
 - Execute the same for Green environment
-- Torbit can be leveraged to control traffic
-- This minimizes change/release rollback significantly
+- DNS/LB can be leveraged to control traffic
+- This minimizes change/release rollback significantly.
 
 
 ## Questions? 
