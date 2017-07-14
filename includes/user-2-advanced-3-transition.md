@@ -37,8 +37,8 @@ In underlying cloud provider:
 
 - Primary:
   - Use cloud now
-- SeondarSecondary:
-  - Mabe use cloud later
+- Secondary:
+  - Maybe use cloud later
   - _Disables_ the traffic
 - Order:
   - Sequence of release deployments

@@ -40,7 +40,7 @@ Note:
 - talk about different circuits
 - Show [https://github.com/oneops/circuit-oneops-1](https://github.com/oneops/circuit-oneops-1)
 - Developers learn about _Pack Development_.
-- Demo: Add tomcat component from oneops circuit (= open source circuit)
+- Demo: Add tomcat component from oneops packe source (= open source circuit)
 
 
 ## Component
@@ -54,8 +54,11 @@ Building blocks of platforms.
 
 Note:
 - Demo looking at compute, java and tomcat components
-- Remove Binary distribution mirrors in tomcat component
-- Enable autoDeploy to true in tomcat component
+- tomcat component 
+  - Remove Binary distribution mirrors
+  - Enable autoDeploy to true
+  - Change version to highest 8x
+  - change web app folder to /opt/tomcat/webapps 
 
 
 ## Examine Design
@@ -72,6 +75,7 @@ Note:
 - Demo
 - All changes are version controlled.
 
+  
 
 ## Optional Components
 
@@ -85,9 +89,7 @@ Note:
 - version 6.0.2
 - path /nexus
 - Install Dir /app/jpetstore
-- Deploy as user app
-- Deploy as group  app
-- restart set to "execute `ln -s /app/jpetstore/current /opt/tomcat7/webapps/petstore`"
+- restart set to `execute "ln -s /app/jpetstore/current /opt/tomcat/webapps/petstore"`
 
 
 ## And Finally
