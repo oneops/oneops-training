@@ -75,7 +75,6 @@ Note:
 - Demo
 - All changes are version controlled.
 
-  
 
 ## Optional Components
 
