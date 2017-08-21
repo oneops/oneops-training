@@ -3,7 +3,7 @@
 Slides used for the OneOps training videos found on 
 
 - the [OneOps website](http://oneops.com) and 
-- the [Walmart Technology Community on YouTube](https://www.youtube.com/watch?v=tmFguo76K90&list=PLjDnb0653uBDMBpTBoLVkVtGIDO-P8e3U).
+- the [Walmart Labs Community on YouTube](https://www.youtube.com/watch?v=tmFguo76K90&list=PLjDnb0653uBDMBpTBoLVkVtGIDO-P8e3U).
 
 
 # The _Cloud_ Concept 
