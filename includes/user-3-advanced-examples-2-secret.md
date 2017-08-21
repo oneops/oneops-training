@@ -5,12 +5,29 @@
 
 ## What are Secrets?
 
-tbd
+Anything that should not be public.
+
+- username / password
+- ssh keys
+- certificates
+- keystores
+- ...
 
 
 ## Practices to Avoid
 
-tbd
+- No credentials
+- Default credentials
+- No secrets
+- Unsecured secrets
+- Obscured secrets
+- Your own secret management
+
+Note:
+- security is hard
+- but dont avoid the efforts
+- breaches are worse
+- dont do it yourself, you will fail
 
 
 ## Secret Management in OneOps
@@ -28,22 +45,37 @@ tbd
 
 ## OneOps Keywhiz Proxy
 
-tbd
+Adapts OneOps concepts to Keywhiz storage
+
+- Username/password credentials, LDAP/SSO
+- Organizations
+- Assembly
+- Environment
+
+Note: 
+github url
 
 
 ## OneOps Keywhiz Proxy CLI
 
-tbd
+- Command line interface
+- Login
+- CRUD operations on secrets
+
+Note: 
+github url
 
 
 ## Keywhiz Client Component
 
-- part of all platforms
-server
-user 
-group
+- Optional component
+- Available on all platforms
+- Syncs secrets onto platform computes
+- Exposes tmpfs filesystem path
+- Automatically syncs from Keywhiz server
 
-Exposes secrets on mountpoint /secrets
+Note:
+- sync every 30s ?
 
 
 ## Adding Secrets
@@ -59,11 +91,14 @@ Demo
 - add optional keywhiz client component
 - release and deploy
 
+Note:
+- demo it
+
 
 ## Accessing Secrets with Java
 
-Example 1: properties file
-Example 2: something else
+- Example 1: properties file
+- Example 2: something else
 
 
 ## Accessing Secrets with JavaScript/NodeJS
@@ -76,6 +111,11 @@ tbd
 And deleting
 
 - watch the timing
+- does your app need a restart to reload?
+
+## Conclusion
+
+Secure end-to-end management of your secrets.
 
 
 ## Questions? 
