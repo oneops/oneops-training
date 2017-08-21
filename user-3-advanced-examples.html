@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>OneOps Training</title>
+<title>OneOps User Training: Level 2 - Advanced</title>
 <link href="./reveal/css/reveal.css" rel="stylesheet" />
 <link href="./reveal/lib/css/zenburn.css" rel="stylesheet" />
 <link href="./reveal/css/theme/walmart-labs.css" rel="stylesheet" />
+<link href="./reveal/css/theme/walmart-labs-center.css" rel="stylesheet" />
 <script>
   document.write('<link rel="stylesheet" href="./reveal/css/print/'
       + (window.location.search.match(/print-pdf/gi) ? 'pdf' : 'paper')
@@ -15,22 +16,21 @@
 <body>
  <div class="reveal">
   <div class="slides">
-    <!-- slide 2 -->
-    <section>
-     <h2>OneOps Training</h2>
-     <ul>
-      <li><a href="./training-videos.html">Training Video Slides</a> used for <a href="https://www.youtube.com/channel/UCajgVCGqZ2M9RhULR8Q5Iww">our YouTube channel</a></li>
-      <li><a href="./user-1-beginner.html">User Training:  Level 1 - Beginner</a></li>
-      <li><a href="./user-2-advanced.html">User Training:  Level 2 - Advanced</a></li>
-      <li><a href="./user-3-advanced-examples.html">User Training:  Level 3 - Advanced Examples</a></li>
-      <!-- 
-      <li><a href="./admin-1-beginner.html">Administrator Training:  Level 1 - Beginner (Planned)</a></li>
-      <li><a href="./admin-2-advanced.html">Administrator Training:  Level 2 - Advanced (Planned)</a></li>
-      <li><a href="./developer-1-beginner.html">Developer Training:  Level 1 - Beginner (Planned)</a></li>
-      -->
-     </ul>
-     <p>Source can be found on <a href="https://github.com/oneops/oneops-training">GitHub.</a>
-    </section>
+    <section data-markdown="./includes/user-3-advanced-examples-1-intro.md" 
+             data-separator="^\n\n\n" 
+             data-separator-vertical="^\n\n" 
+             data-separator-notes="^Note:" 
+             data-charset="iso-8859-15"></section>
+    <section data-markdown="./includes/user-3-advanced-examples-2-secret.md" 
+             data-separator="^\n\n\n" 
+             data-separator-vertical="^\n\n" 
+             data-separator-notes="^Note:" 
+             data-charset="iso-8859-15"></section>
+    <section data-markdown="./includes/user-3-advanced-examples-8-conclusion.md" 
+             data-separator="^\n\n\n" 
+             data-separator-vertical="^\n\n" 
+             data-separator-notes="^Note:" 
+             data-charset="iso-8859-15"></section>
    </div>
   </div>
   <script src="./reveal/lib/js/head.min.js"></script>
@@ -51,7 +51,9 @@
       margin: 0.1,
       minScale: 0.2,
       maxScale: 1.5,
-
+      
+      progress: false,
+      
       // Optional libraries used to extend on reveal.js
       dependencies : [ 
         { src : './reveal/lib/js/classList.js',
@@ -66,7 +68,7 @@
         { src : './reveal/plugin/zoom-js/zoom.js',
           async : true,
           condition : function() { return !!document.body.classList; }
-        }, 
+        },
         { src : './reveal/plugin/notes/notes.js',
           async : true,
           condition : function() { return !!document.body.classList; }
