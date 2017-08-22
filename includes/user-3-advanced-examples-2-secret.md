@@ -53,7 +53,7 @@ Adapts OneOps concepts to Keywhiz storage
 - Environment
 
 Note: 
-github url
+https://github.com/oneops/keywhiz-proxy
 
 
 ## OneOps Keywhiz Proxy CLI
@@ -112,6 +112,7 @@ And deleting
 
 - watch the timing
 - does your app need a restart to reload?
+
 
 ## Conclusion
 
