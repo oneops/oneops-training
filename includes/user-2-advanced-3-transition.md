@@ -91,6 +91,10 @@ What does that mean?
 - 2 clouds
 - 2 data centers
 
+Interal, non-critical applications can be 2x1x2.
+
+Typical customer facing applications way more.
+
 Note:
 Minimum - large systems can have 8 or more clouds 
 
