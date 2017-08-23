@@ -33,8 +33,8 @@ Note:
 ## Secret Management in OneOps
 
 - Keywhiz
-- OneOps Keywhiz Proxy and CLI
-- `keywhiz client` component
+- OneOps Secrets Proxy and CLI
+- `secrets client` component
 - Your code
 
 
@@ -43,7 +43,7 @@ Note:
 - server from Square
 
 
-## OneOps Keywhiz Proxy
+## OneOps Secrets Proxy
 
 Adapts OneOps concepts to Keywhiz storage
 
@@ -53,26 +53,26 @@ Adapts OneOps concepts to Keywhiz storage
 - Environment
 
 Note: 
-https://github.com/oneops/keywhiz-proxy
+https://github.com/oneops/secrets-proxy
 
 
-## OneOps Keywhiz Proxy CLI
+## OneOps Secrets CLI
 
-- Command line interface
+- Command line interface for Secrets Proxy
 - Login
 - CRUD operations on secrets
 
 Note: 
-github url
+https://github.com/oneops/secrets-cli
 
 
-## Keywhiz Client Component
+## Secrets Client Component
 
 - Optional component
 - Available on all platforms
 - Syncs secrets onto platform computes
-- Exposes tmpfs filesystem path
-- Automatically syncs from Keywhiz server
+- Exposes filesystem path
+- Secrets from Keywhiz via Secrets Proxy 
 
 Note:
 - sync every 30s ?
@@ -88,7 +88,7 @@ Demo
 
 ## Adding to Your Platform
 
-- add optional keywhiz client component
+- add optional secrets client component
 - release and deploy
 
 Note:
