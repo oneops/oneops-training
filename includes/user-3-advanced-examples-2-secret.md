@@ -1,4 +1,4 @@
-# Secret Managment
+# Secret Management
 
 > OneOps and Keywhiz
 
@@ -8,19 +8,19 @@
 Anything that should not be public.
 
 - username / password
-- ssh keys
-- certificates
-- keystores
+- TLS (ssh/ssl) certificates/keys
+- GPG keys
+- API tokens
+- Keystore files
 - ...
 
 
 ## Practices to Avoid
 
-- No credentials
-- Default credentials
-- No secrets
+- No secrets used
+- Using default secrets
 - Unsecured secrets
-- Obscured secrets
+- Obscured, obfuscated secrets
 - Your own secret management
 
 Note:
@@ -33,14 +33,17 @@ Note:
 ## Secret Management in OneOps
 
 - Keywhiz
-- OneOps Secrets Proxy and CLI
+- OneOps Secrets Proxy 
+- OneOps Secrets CLI
 - `secrets client` component
 - Your code
 
 
 ## Keywhiz
 
-- server from Square
+- System for managing and distributing secrets
+- Open source software from Square
+- [https://square.github.io/keywhiz/](https://square.github.io/keywhiz/)
 
 
 ## OneOps Secrets Proxy
