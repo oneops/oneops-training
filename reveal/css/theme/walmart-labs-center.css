@@ -5,9 +5,11 @@
  * Based on the White theme for reveal.js.
  * By Hakim El Hattab, http://hakim.se
  */
+
 /*********************************************
 * FONT ALIGNMENT STYLES
 *********************************************/
+
 .reveal .slides {
   position: absolute;
   width: 100%;
@@ -26,3 +28,13 @@
   perspective: 600px;
   -webkit-perspective-origin: 50% 40%;
   perspective-origin: 50% 40%; }
+
+/*********************************************
+* SECTION SPECIFIC STYLES
+*********************************************/
+.reveal section.title-slide h1{
+  color: #ffffff;
+  padding-top: 0; }
+
+.reveal blockquote {
+  position: relative; }

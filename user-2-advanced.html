@@ -5,7 +5,8 @@
 <title>OneOps User Training: Level 2 - Advanced</title>
 <link href="./reveal/css/reveal.css" rel="stylesheet" />
 <link href="./reveal/lib/css/zenburn.css" rel="stylesheet" />
-<link href="./reveal/css/theme/walmart-oneops.css" rel="stylesheet" />
+<link href="./reveal/css/theme/walmart-labs.css" rel="stylesheet" />
+<link href="./reveal/css/theme/walmart-labs-center.css" rel="stylesheet" />
 <script>
   document.write('<link rel="stylesheet" href="./reveal/css/print/'
       + (window.location.search.match(/print-pdf/gi) ? 'pdf' : 'paper')
@@ -15,37 +16,64 @@
 <body>
  <div class="reveal">
   <div class="slides">
-    <section data-markdown="./includes/user-2-advanced-1-intro.md" 
-             data-separator="^\n\n\n" 
-             data-separator-vertical="^\n\n" 
-             data-separator-notes="^Note:" 
+    <section data-background="./images/logos/oneops.png"
+             data-background-size="200px"
+             data-background-position="top 10px right 10px"
+             data-markdown="./includes/user-2-advanced-1-intro.md"
+             data-separator="^\n\n\n"
+             data-separator-vertical="^\n\n"
+             data-separator-notes="^Note:"
              data-charset="iso-8859-15"></section>
-    <section data-markdown="./includes/user-2-advanced-2-design.md" 
-             data-separator="^\n\n\n" 
-             data-separator-vertical="^\n\n" 
-             data-separator-notes="^Note:" 
+    <section data-background="./images/logos/oneops.png"
+             data-background-size="200px"
+             data-background-position="top 10px right 10px"
+             data-markdown="./includes/user-2-advanced-2-design.md"
+             data-separator="^\n\n\n"
+             data-separator-vertical="^\n\n"
+             data-separator-notes="^Note:"
              data-charset="iso-8859-15"></section>
-    <section data-markdown="./includes/user-2-advanced-3-transition.md" 
-             data-separator="^\n\n\n" 
-             data-separator-vertical="^\n\n" 
-             data-separator-notes="^Note:" 
+    <section data-background="./images/logos/oneops.png"
+             data-background-size="200px"
+             data-background-position="top 10px right 10px"
+             data-markdown="./includes/user-2-advanced-3-transition.md"
+             data-separator="^\n\n\n"
+             data-separator-vertical="^\n\n"
+             data-separator-notes="^Note:"
              data-charset="iso-8859-15"></section>
-    <section data-markdown="./includes/user-2-advanced-4-operation.md" 
-             data-separator="^\n\n\n" 
-             data-separator-vertical="^\n\n" 
-             data-separator-notes="^Note:" 
+    <section data-background="./images/logos/oneops.png"
+             data-background-size="200px"
+             data-background-position="top 10px right 10px"
+             data-markdown="./includes/user-2-advanced-4-operation.md"
+             data-separator="^\n\n\n"
+             data-separator-vertical="^\n\n"
+             data-separator-notes="^Note:"
              data-charset="iso-8859-15"></section>
-    <section data-markdown="./includes/user-2-advanced-7-integration.md" 
-             data-separator="^\n\n\n" 
-             data-separator-vertical="^\n\n" 
-             data-separator-notes="^Note:" 
+    <section data-background="./images/logos/oneops.png"
+             data-background-size="200px"
+             data-background-position="top 10px right 10px"
+             data-markdown="./includes/user-2-advanced-7-integration.md"
+             data-separator="^\n\n\n"
+             data-separator-vertical="^\n\n"
+             data-separator-notes="^Note:"
              data-charset="iso-8859-15"></section>
-    <section data-markdown="./includes/user-2-advanced-8-conclusion.md" 
-             data-separator="^\n\n\n" 
-             data-separator-vertical="^\n\n" 
-             data-separator-notes="^Note:" 
+    <section data-background="./images/logos/oneops.png"
+             data-background-size="200px"
+             data-background-position="top 10px right 10px"
+             data-markdown="./includes/user-2-advanced-8-conclusion.md"
+             data-separator="^\n\n\n"
+             data-separator-vertical="^\n\n"
+             data-separator-notes="^Note:"
              data-charset="iso-8859-15"></section>
    </div>
+
+    <div id="hidden" style="display:none;">
+     <div id="header">
+      <div id="footer">
+       <img id="footer-logo" align="right" src="wmt/img/walmart-labs-logo-wht.png"/>
+      </div>
+     </div>
+    </div><!-- END FOOTER -->
+
   </div>
   <script src="./reveal/lib/js/head.min.js"></script>
  <script src="./reveal/js/reveal.js"></script>
@@ -65,17 +93,15 @@
       margin: 0.1,
       minScale: 0.2,
       maxScale: 1.5,
-      
-      progress: false,
-      
+
       // Optional libraries used to extend on reveal.js
-      dependencies : [ 
+      dependencies : [
         { src : './reveal/lib/js/classList.js',
           condition : function() { return !document.body.classList; }
-        }, 
+        },
         { src : './reveal/plugin/markdown/marked.js',
           condition : function() { return !!document.querySelector('[data-markdown]'); }
-        }, 
+        },
         { src : './reveal/plugin/markdown/markdown.js',
          condition : function() { return !!document.querySelector('[data-markdown]'); }
         },
@@ -86,9 +112,22 @@
         { src : './reveal/plugin/notes/notes.js',
           async : true,
           condition : function() { return !!document.body.classList; }
-        } 
+        }
       ]
     });
+  </script>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script type="text/javascript">
+    // 3. On Reveal.js ready event, copy header/footer <div> into each `.slide-background` <div>
+    var header = $('#header').html();
+    if ( window.location.search.match( /print-pdf/gi ) ) {
+      Reveal.addEventListener( 'ready', function( event ) {
+        $('.slide-background').append(header);
+      });
+    }
+    else {
+      $('div.reveal').append(header);
+    }
   </script>
 </body>
 </html>
