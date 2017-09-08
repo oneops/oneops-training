@@ -25,12 +25,26 @@
              data-separator-notes="^Note:" 
              data-charset="iso-8859-15"></section>
    </div>
+
+   <div id="hidden" style="display:none;">
+     <div id="header">
+      <div id="footer">
+       <img id="footer-logo" align="right" src="wmt/img/walmart-labs-logo-wht.png"/>
+      </div>
+     </div>
+    </div><!-- END FOOTER -->
+    
   </div>
   <script src="./reveal/lib/js/head.min.js"></script>
  <script src="./reveal/js/reveal.js"></script>
  <script>
     // See https://github.com/hakimel/reveal.js#configuration for a full list of configuration options
     Reveal.initialize({
+      controls: true,
+      progress: true,
+      history: true,
+      center: true,
+      slideNumber: true,
       width: '100%',
       height: '100%',
       // 720p as used for videos
@@ -63,6 +77,19 @@
         } 
       ]
     });
+  </script>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script type="text/javascript">
+    // 3. On Reveal.js ready event, copy header/footer <div> into each `.slide-background` <div>
+    var header = $('#header').html();
+    if ( window.location.search.match( /print-pdf/gi ) ) {
+      Reveal.addEventListener( 'ready', function( event ) {
+        $('.slide-background').append(header);
+      });
+    }
+    else {
+      $('div.reveal').append(header);
+    }
   </script>
 </body>
 </html>
