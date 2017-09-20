@@ -21,6 +21,7 @@ Commandline tool
 
 - Jenkins plugin used in Looper
 - boo
+- Plugin for Concord workflow engine
 
 
 ## Questions? 
