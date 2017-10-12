@@ -100,15 +100,11 @@ Learn more e.g. at [https://12factor.net/](https://12factor.net/)
 
 ## Cloud Provider
 
-Either commercial company
+Either commercial company like
 
-- Amazon
-- Microsoft
-- Google
-- Rackspace
-- Others
+Alibaba, Amazon, Microsoft, Oracle, Rackspace or others
 
-Or your own provider using
+Or your own datacenter and installation using
 
 - OpenStack
 - Apache Cloudstack
