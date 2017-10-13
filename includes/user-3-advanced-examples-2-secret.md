@@ -11,7 +11,7 @@ Anything that should not be public.
 - TLS (ssh/ssl) certificates/keys
 - GPG keys
 - API tokens
-- Keystore files
+- Java KeyStore files
 - ...
 
 
@@ -25,9 +25,9 @@ Anything that should not be public.
 
 Note:
 - security is hard
-- but dont avoid the efforts
+- but don't avoid the efforts
 - breaches are worse
-- dont do it yourself, you will fail
+- don't do it yourself, you will fail
 
 
 ## Secret Management in OneOps
@@ -59,26 +59,36 @@ Note:
 https://github.com/oneops/secrets-proxy
 
 
+## Access to Secrets
+
+Via teams in OneOps
+
+- per org `secrets-admin`
+- specific to assembly `secrets-admin-assemblyname`
+- access to design and transition
+
 ## OneOps Secrets CLI
 
 - Command line interface for Secrets Proxy
 - Login
 - CRUD operations on secrets
+- Secrets per application => `org_assembly_environment`
 
 Note: 
-https://github.com/oneops/secrets-cli
+- https://github.com/oneops/secrets-cli
+- potentially custom distro with certs and URL baked in
 
 
 ## Secrets Client Component
 
 - Optional component
 - Available on all platforms
-- Syncs secrets onto platform computes
-- Exposes filesystem path
+- Syncs secrets onto computes
+- Exposes `/secrets` filesystem path
 - Secrets from Keywhiz via Secrets Proxy 
 
 Note:
-- sync every 30s ?
+- sync every 30s
 
 
 ## Adding Secrets
