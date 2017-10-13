@@ -5,20 +5,21 @@
 
 ## Summary
 
-TBD
+Now you know how to 
+
+- Manage secrets in OneOps
+
+
+## Feedback and More
+
+Let us know what else we should add.
+
+Join us in a future class for more topics.
 
 
 ## Next Step
 
 Try it out!
-
-
-## Learn More
-
-- Website at [http://oneops.com](http://oneops.com)
-- Live chat on [http://oneops.slack.com](http://oneops.slack.com)
-- Video channel [on YouTube](https://www.youtube.com/channel/UCajgVCGqZ2M9RhULR8Q5Iww)
-- Source code at [http://github.com/oneops](http://github.com/oneops)
 
 
 ## Thank You
