@@ -5,14 +5,19 @@
 
 ## Training Overview
 
-TBD
+- Secrets Management in OneOps <!-- .element: class="fragment" -->
+
+Note: 
+- More modules in future improvements of the course
 
 
 ## Goals and Objectives
 
 At the end of this class, you should: <!-- .element: class="fragment" -->
 
-TBD
+- Determine secrets to protect <!-- .element: class="fragment" -->
+- Provision secrets into your assembly <!-- .element: class="fragment" -->
+- Adapt your secret access <!-- .element: class="fragment" -->
 
 
 ## Instructors
@@ -29,14 +34,14 @@ Note:
 
 ## Course Mechanics
 
-- Three one hour long sessions with breaks
+- One hour long session
 - Sit back and watch instructor demos
 - Ask questions any time
 - Reproduce after class at your own pace
 
 Note:
 - Remind people to mute their audio line
-
+- later longer session
 
 ## Prerequisites
 
