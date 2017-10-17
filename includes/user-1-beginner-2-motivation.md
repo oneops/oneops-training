@@ -97,6 +97,11 @@ Learn more e.g. at [https://12factor.net/](https://12factor.net/)
 
 <em class="yellow">Typically utilization is raised from around 20% to 90%.</em>
 
+Note:
+- Example: How to fill a bucket best? A few large rocks fills it less than sand!
+- Example: Cut household costs over a month into less than a quarter.
+  Imagine all the other things you can do!
+
 
 ## Cloud Provider
 
