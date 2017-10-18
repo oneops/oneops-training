@@ -10,7 +10,7 @@ Now you know how to
 - Manage secrets in OneOps
 
 
-## Feedback and More
+## Feedback
 
 Let us know what else we should add!
 
@@ -19,7 +19,7 @@ Join us in a future class for more topics.
 
 ## Next Step
 
-Try it out!
+Try it out and adopt usage.
 
 
 ## Thank You
