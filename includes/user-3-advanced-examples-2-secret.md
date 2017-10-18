@@ -32,17 +32,17 @@ Note:
 
 ## Secret Management in OneOps
 
-- Keywhiz
-- OneOps Secrets Proxy 
-- OneOps Secrets CLI
-- `secrets client` component
-- Your code
+- Keywhiz <!-- .element: class="fragment" -->
+- OneOps Secrets Proxy <!-- .element: class="fragment" -->
+- OneOps Secrets CLI <!-- .element: class="fragment" -->
+- secrets client component <!-- .element: class="fragment" -->
+- Your code <!-- .element: class="fragment" -->
 
 
 ## Keywhiz
 
 - System for managing and distributing secrets
-- Open source software from Square
+- Open source software from [Square](https://square.github.io/)
 - [https://square.github.io/keywhiz/](https://square.github.io/keywhiz/)
 
 
@@ -50,33 +50,65 @@ Note:
 
 Adapts OneOps concepts to Keywhiz storage
 
-- Username/password credentials, LDAP/SSO
-- Organizations
-- Assembly
-- Environment
+- Username/password credentials via LDAP/SSO <!-- .element: class="fragment" -->
+- Role-based access control for organization and assembly <!-- .element: class="fragment" -->
+- Secrets per Organization / Assembly / Environment <!-- .element: class="fragment" -->
 
 Note: 
 https://github.com/oneops/secrets-proxy
 
 
-## Access to Secrets
+## OneOps Security Configuration
 
 Via teams in OneOps
 
-- per org `secrets-admin`
-- specific to assembly `secrets-admin-assemblyname`
-- access to design and transition
+- Full organization `secrets-admin`
+- Specific to assembly `secrets-admin-assemblyname`
+- Access to _design_ and _transition_
+
+Note:
+- Demo setup for assembly and org
+
 
 ## OneOps Secrets CLI
 
 - Command line interface for Secrets Proxy
 - Login
 - CRUD operations on secrets
-- Secrets per application => `org_assembly_environment`
+- Secrets per application: `org_assembly_environment`
 
 Note: 
 - https://github.com/oneops/secrets-cli
 - potentially custom distro with certs and URL baked in
+- Demo installing CLI
+- Show commands and help
+
+
+## Adding Secrets
+
+Use the CLI
+
+```
+secrets add -u <username> -a <application> -d <description> access.properties
+```
+
+Note:
+- Demo it!
+- application = org_assembly_env
+
+
+## Other Operations
+
+Comprehensive secrets management:
+
+- Add
+- Update
+- Delete
+- Download
+- List
+
+Note:
+- Demo a bunch via help and actual usage
 
 
 ## Secrets Client Component
@@ -91,40 +123,35 @@ Note:
 - sync every 30s
 
 
-## Adding Secrets
-
-use the CLI
-
-Note:
-Demo
-
-
 ## Adding to Your Platform
 
-- add optional secrets client component
-- release and deploy
+- Add optional `secrets client` component
+- Pull design to enviroment
+- Release and deploy
 
 Note:
-- demo it
+- Demo it 
 
 
-## Accessing Secrets with Java
+## Accessing Secrets
 
-- Example 1: properties file
-- Example 2: something else
+- secret files at `/secrets`
+- filesystem-based access
+  - modify path
+  - use symbolic links
+
+Note:
+- specific tips in [documentation](http://oneops.com/user/design/secrets-client-component.html)
 
 
-## Accessing Secrets with JavaScript/NodeJS
+## Tips and Tricks
 
-tbd
+- Careful with secret updates
+- Keep in mind how secrets are loaded
+- Might require restart
 
-
-## Updating Secrets
-
-And deleting
-
-- watch the timing
-- does your app need a restart to reload?
+Note:
+- restart will depend on component used to run app
 
 
 ## Conclusion

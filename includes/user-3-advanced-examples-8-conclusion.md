@@ -12,7 +12,7 @@ Now you know how to
 
 ## Feedback and More
 
-Let us know what else we should add.
+Let us know what else we should add!
 
 Join us in a future class for more topics.
 
