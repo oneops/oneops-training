@@ -40,7 +40,7 @@ Note:
 - talk about different circuits
 - Show [https://github.com/oneops/circuit-oneops-1](https://github.com/oneops/circuit-oneops-1)
 - Developers learn about _Pack Development_.
-- Demo: Add tomcat component from oneops packe source (= open source circuit)
+- Demo: Add tomcat component from oneops pack source (= open source circuit)
 
 
 ## Component
@@ -55,10 +55,10 @@ Building blocks of platforms.
 Note:
 - Demo looking at compute, java and tomcat components
 - tomcat component 
-  - Remove Binary distribution mirrors
   - Enable autoDeploy to true
   - Change version to highest 8x
-  - change web app folder to /opt/tomcat/webapps 
+  - Set build version to NA
+  - Change web app folder to /opt/tomcat8/webapps
 
 
 ## Examine Design
@@ -78,17 +78,36 @@ Note:
 
 ## Optional Components
 
-Add _artifact_ component for our application
+- Add _artifact_ component
+- Represents our application
 
 Note:
-- Repository URL $OO_CLOUD{nexus} 
+- update to tomcat8 in all configs
+- observe variable usage and move on to next slide
+
+
+## Variable Configuration
+
+Central key/value pair definition for reuse.
+
+Platform variables used in _artifact_ component.
+
+Note:
 - equivalent to http://repo1.maven.org/maven2/org/mybatis/jpetstore/6.0.2/jpetstore-6.0.2.war
+- from internal Nexus/WaRM instance configured in cloud
+- groupId org.mybatis
+- artifactId jpetstore
 - repository  pangaea_releases
-- identifier  org.mybatis:jpetstore:war
 - version 6.0.2
-- path /nexus
-- Install Dir /app/jpetstore
-- restart set to `execute "ln -s /app/jpetstore/current /opt/tomcat/webapps/petstore"`
+
+
+## More Optional Components
+
+Add _tomcat-daemon_ component for our application
+
+Note:
+- explain what it does
+- recommended best practice for this pack
 
 
 ## And Finally
