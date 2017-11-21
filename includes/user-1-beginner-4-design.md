@@ -54,8 +54,13 @@ Building blocks of platforms.
 
 Note:
 - Demo looking at compute, java and tomcat components
+- os component
+  - update to newer centos
+- java component
+  - change to oracle
+  - server jre
+  - update 144
 - tomcat component 
-  - Enable autoDeploy to true
   - Change version to highest 8x
   - Set build version to NA
   - Change web app folder to /opt/tomcat8/webapps
