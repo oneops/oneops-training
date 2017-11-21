@@ -141,12 +141,13 @@ Note:
   - use symbolic links
 
 Note:
-- specific tips in [documentation](http://oneops.com/user/design/secrets-client-component.html)
+- specific code snippets in [documentation](http://oneops.com/user/design/secrets-client-component.html)
+- show them
 
 
 ## Tips and Tricks
 
-- Careful with secret updates
+- Careful, secret updates are immediate
 - Keep in mind how secrets are loaded
 - Might require restart
 
