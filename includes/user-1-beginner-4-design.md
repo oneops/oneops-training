@@ -99,7 +99,7 @@ Platform variables used in _artifact_ component.
 
 Note:
 - equivalent to http://repo1.maven.org/maven2/org/mybatis/jpetstore/6.0.2/jpetstore-6.0.2.war
-- from internal Nexus/WaRM instance configured in cloud
+- from internal repository manager instance configured in cloud
 - groupId org.mybatis
 - artifactId jpetstore
 - repository  pangaea_releases
