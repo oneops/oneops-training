@@ -107,7 +107,7 @@ Note:
 
 Either commercial company like
 
-Alibaba, Amazon, Microsoft, Oracle, Rackspace or others
+Alibaba, Google, Microsoft, Oracle, Rackspace or others
 
 Or your own datacenter and installation using
 

@@ -7,10 +7,9 @@
 
 Defines your application runtime scenarios with regards to
 
-- Security,
-- Reliability,
-- Scalability,
-- and Availability Mode.
+- Security
+- Reliability
+- Scalability
 
 <em class="yellow">How and where to deploy and run.</em>
 
@@ -19,8 +18,6 @@ Defines your application runtime scenarios with regards to
 
 - Name: e.g. dev, test, qa, stage, prod
 - Admin Status
-  - Provision=dev
-  - Active=prod
 - DNS
 - Availability Mode
 - Clouds

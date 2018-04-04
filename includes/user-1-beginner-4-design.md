@@ -21,8 +21,7 @@ Platforms define the parts of your assembly.
 - Apache HTTP Server
 - Nodejs
 - Couchbase
-- ElasticSearch
-- Custom
+- CustomLb
 - many more
 
 
@@ -81,14 +80,15 @@ Note:
 - All changes are version controlled.
 
 
-## Optional Components
+## Our Application
 
-- Add _artifact_ component
-- Represents our application
+- _artifact_ component
+- download from repository manager
+- extract and scripts
 
 Note:
-- update to tomcat8 in all configs
-- observe variable usage and move on to next slide
+- explain a bit and move on the variables
+- Ruby scripts
 
 
 ## Variable Configuration
@@ -106,13 +106,15 @@ Note:
 - version 6.0.2
 
 
-## More Optional Components
+## Optional Components
 
-Add _tomcat-daemon_ component for our application
+A number of base components in every pack
 
-Note:
-- explain what it does
-- recommended best practice for this pack
+- _user_
+- _hostname_ 
+- _fqdn_
+
+More later in advanced class.
 
 
 ## And Finally
