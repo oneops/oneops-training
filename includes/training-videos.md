@@ -5,6 +5,7 @@ Slides used for the OneOps training videos found on
 - the [OneOps website](http://oneops.com) and 
 - the [Walmart Labs Community on YouTube](https://www.youtube.com/watch?v=tmFguo76K90&list=PLjDnb0653uBDMBpTBoLVkVtGIDO-P8e3U).
 
+<!--- horizontal -->
 
 # The _Cloud_ Concept 
 
@@ -14,6 +15,7 @@ Slides used for the OneOps training videos found on
 - What does it provide? <!-- .element: class="fragment" -->
 - What are benefits and advantages? <!-- .element: class="fragment" -->
 
+<!--- vertical -->
 
 # Comparison
 
@@ -23,6 +25,7 @@ vs <!-- .element: class="fragment" -->
 
 ## OneOps Assembly <!-- .element: class="fragment" -->
 
+<!--- vertical -->
 
 # What is a Cloud Application?
 
@@ -30,6 +33,7 @@ vs <!-- .element: class="fragment" -->
 - One or more components <!-- .element: class="fragment" -->
 - Complex interactions <!-- .element: class="fragment" -->
 
+<!--- vertical -->
 
 # Common Characteristics
 
@@ -37,6 +41,7 @@ vs <!-- .element: class="fragment" -->
 - Always up - Monitoring! <!-- .element: class="fragment" -->
 - Dynamic size- Scaling! <!-- .element: class="fragment" -->
 
+<!--- vertical -->
 
 # Traditional Cloud Application
 
@@ -47,6 +52,7 @@ vs <!-- .element: class="fragment" -->
 - Specific deployment
   - Cloud API usage
 
+<!--- vertical -->
 
 # OneOps Assembly
 
@@ -60,6 +66,7 @@ An application defined in OneOps including
 
 _Abstracted_ from specific tools and platforms.
 
+<!--- vertical -->
 
 # _Cloud_ in OneOps 
 
@@ -70,6 +77,7 @@ __Abstract__ set of services
 - Load balancing
 - ...
 
+<!--- vertical -->
 
 #  
 
@@ -79,6 +87,7 @@ is deployed to
 
 ## Cloud(s) in OneOps
 
+<!--- vertical -->
 
 # Benefits
 
@@ -90,6 +99,7 @@ Assembly is __independent__ of deployment cloud:
 - hybrid private and public cloud
 - assembly dev != OneOps cloud admin
 
+<!--- vertical -->
 
 # Cloud-Related Features
 
@@ -103,6 +113,7 @@ Assembly is __independent__ of deployment cloud:
 
 > And much more...
 
+<!--- vertical -->
 
 # Cloud Providers
 
@@ -130,6 +141,7 @@ Assembly is __independent__ of deployment cloud:
 </td>
 </tr>
 
+<!--- vertical -->
 
 # Summary 
 
@@ -141,12 +153,13 @@ Assembly is __independent__ of deployment cloud:
 - Seamless migration <!-- .element: class="fragment" -->
 - Optimize for performance, cost, availability ... <!-- .element: class="fragment" -->
 
-
+<!--- horizontal -->
 
 # Favorites
 
 Know where you stuff is in OneOps!
 
+<!--- vertical -->
 
 # Lots of Everything
 
@@ -160,6 +173,7 @@ Typically OneOps has
 
 but you are not interested in it all. <!-- .element: class="fragment" -->
 
+<!--- vertical -->
 
 # Favorites in OneOps
 
@@ -169,18 +183,20 @@ And access them easily any time. <!-- .element: class="fragment" -->
 
 Let's check it out! <!-- .element: class="fragment" -->
 
-
+<!--- horizontal -->
 
 # Search
 
 Finding things in OneOps
 
+<!--- vertical -->
 
 # Access
 
 - Global <!-- .element: class="fragment" -->
 - Environment-specific <!-- .element: class="fragment" -->
 
+<!--- vertical -->
 
 # Criteria
 
@@ -193,12 +209,13 @@ Finding things in OneOps
 
 Let's see it in action! <!-- .element: class="fragment" -->
 
-
+<!--- horizontal -->
 
 # Monitor Charts
 
 Visually analyze and inspect component behavior.
 
+<!--- vertical -->
 
 ## Features
 

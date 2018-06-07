@@ -4,6 +4,7 @@
 
 > More platform and component knowledge
 
+<!--- vertical -->
 
 ## Assembly Design
 
@@ -15,6 +16,7 @@ How to tackle more complex scenarios?
 - Logging
 - ...
 
+<!--- vertical -->
 
 ## Separate Assemblies
 
@@ -29,6 +31,7 @@ Note:
 - e.g. OneOps core, inductor and others
 - offers pretty complete separation
 
+<!--- vertical -->
 
 ## Multiple Different Platforms
 
@@ -42,6 +45,7 @@ Use different platforms:
 Note: 
 - e.g. OneOps core
 
+<!--- vertical -->
 
 ## Multiple Platform Configurations
 
@@ -55,6 +59,7 @@ Note:
 - eg. OneOps core has multiple of postgres, tomcat and elasticsearch
 - depending on scale separate assemblies might also make sense
 
+<!--- vertical -->
 
 ## Characteristics
 
@@ -66,6 +71,7 @@ Each platform has separate
   - cloud selection
   - scale
 
+<!--- vertical -->
 
 ## More Platform Information
 
@@ -77,6 +83,7 @@ Note:
 - Demo it all
 - Quality of data varies
 
+<!--- vertical -->
 
 ## Network Configuration
 
@@ -91,6 +98,7 @@ A number of components involved:
 Note:
 - explain and maybe show all of them a bit
 
+<!--- vertical -->
 
 ## Key Properties for Resiliency
 
@@ -101,8 +109,7 @@ Load balancer `lb` component:
   - least connection (preferred)
 - Extended Content Verification ECV
 
-Note:
-
+<!--- vertical -->
 
 ## Virtual IP Address VIP and lb
 
@@ -111,6 +118,7 @@ VIP - an IP address that points to a load balancer.
 When you use an `lb` component in OneOps, it is creating one or more
 VIPs.
 
+<!--- vertical -->
 
 ## Global server load balancer GSLB
 
@@ -122,12 +130,14 @@ Load balancing across clouds,
   - Reduce latency
   - Increase performance
 
+<!--- vertical -->
 
 ## Fully Qualified Domain Name
 
 - Enable GSLB with Proximity
 - Ensure gdns checked
 
+<!--- vertical -->
 
 ## Custom Platforms
 
@@ -136,6 +146,7 @@ Load balancing across clouds,
 - No recommended - write your own pack 
 - In future - Ansible
 
+<!--- vertical -->
 
 ## Custom with LB
 
@@ -144,6 +155,7 @@ Load balancing across clouds,
 
 But be careful - flexibility generates complexity!
 
+<!--- vertical -->
 
 ## Resource Components
 
@@ -151,17 +163,20 @@ But be careful - flexibility generates complexity!
 - `download` from any URL
 - `file` provide actual content
 
+<!--- vertical -->
 
 ## Service Component
 
 `daemon` to automatically start application
 
+<!--- vertical -->
 
 ## Providing Room
 
 - `storage` determines size
 - `volume` mount storage to path
 
+<!--- vertical -->
 
 ## Variables
 
@@ -176,6 +191,7 @@ Use e.g. for version of artifact
 Note:
 - Demo
 
+<!--- vertical -->
 
 ## Questions? 
 

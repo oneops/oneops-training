@@ -2,6 +2,7 @@
 
 > Environments, Clouds and More in Depth
 
+<!--- vertical -->
 
 ## Environments
 
@@ -16,6 +17,7 @@ Allow usage of same design for different purposes
 Note:
 - review override lock and such
 
+<!--- vertical -->
 
 ## Cloud Characteristics
 
@@ -32,6 +34,7 @@ In underlying cloud provider:
 - available services
 - ... 
 
+<!--- vertical -->
 
 ## Cloud Selection
 
@@ -51,6 +54,7 @@ Configure __per environment at creation!__
 Note:
 - Demo environment creation with cloud selection and show
 
+<!--- vertical -->
 
 ## Cloud Configuration and Changes
 
@@ -69,6 +73,7 @@ Note:
 - Demo cloud operations in transition (see above)
 - and in operation (autorepair on/off)
 
+<!--- vertical -->
 
 ## Best Practices
 
@@ -82,6 +87,7 @@ Note:
   - cloud and VM maintenance
   - real failures
 
+<!--- vertical -->
 
 ## 2 x 2 x 2 Minimum
 
@@ -91,13 +97,14 @@ What does that mean?
 - 2 clouds
 - 2 data centers
 
-Interal, non-critical applications can be 2x1x2.
+Internal, non-critical applications can be 2x1x2.
 
 Typical customer facing applications way more.
 
 Note:
 Minimum - large systems can have 8 or more clouds 
 
+<!--- vertical -->
 
 ## Practices to Avoid
 
@@ -105,6 +112,7 @@ Minimum - large systems can have 8 or more clouds
 - No reliance on specific VMs = no pets!
 - No IP number usage
 
+<!--- vertical -->
 
 ## Rolling out Changes
 
@@ -117,6 +125,7 @@ All are __committed__ and __create a release__,
 
 and in transition __create a deployment__.
 
+<!--- vertical -->
 
 ## Destructive Changes
 
@@ -130,6 +139,7 @@ Again, all are __committed__ and __create a release__,
 
 and in transition __create a deployment__.
 
+<!--- vertical -->
 
 ## Questions? 
 

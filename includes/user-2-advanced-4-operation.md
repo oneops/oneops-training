@@ -2,22 +2,16 @@
 
 > Running and Updating Assemblies Successfully
 
+<!--- vertical -->
 
 ## Log
 
-Various logs:
-
 - logs tab per platform and component in operation.
-- deployment log
+- OneOps deployment log
 
-Separate log aggregation for 
+For other logging, telegraf, and others
 
-- accumulated information
-- analysis
-
-Note:
-TBD - is this useful at all, it doesnt seem so to me
-
+<!--- vertical -->
 
 ## Monitors
 
@@ -25,6 +19,7 @@ TBD - is this useful at all, it doesnt seem so to me
 - defined in design and transition
 - data available per instance in operation
 
+<!--- vertical -->
 
 ## Monitors in Operation
 
@@ -37,6 +32,7 @@ Charts with
 Note: 
 - Demo it
 
+<!--- vertical -->
 
 ## Heartbeat
 
@@ -45,11 +41,13 @@ Used to signal component health.
 - e.g. ssh in compute
 - enables Auto Repair and Auto Replace
 
+<!--- vertical -->
 
 ## Monitor Configuration
 
 Let's have a look!
 
+<!--- vertical -->
 
 ## Replace a Compute
 
@@ -57,18 +55,13 @@ Let's have a look!
 - commit and deploy
 - can not have other pending changes
 
+<!--- vertical -->
 
 ## Scaling
 
-Manually With % Deploy
+Let's have a look.
 
-- Start with 10% of your instances get impacted
-- OO keeps track of which 10% rolled with new changes and apply remaining 10% and so on
-- Could be beneficial to apply just 1-2 VMs
-
-Note:
-See scaling control on environment transition config
-
+<!--- vertical -->
 
 ## Resiliency Test
 
@@ -88,6 +81,7 @@ Success criteria
 Note:
 If NOT fix and run it again until we have a success
 
+<!--- vertical -->
 
 ## Release Deployments
 
@@ -102,17 +96,20 @@ Next step is to upgrade/release without problems.
 Note:
 - get detailed help with planning and test this
 
+<!--- vertical -->
 
 ## Zero Downtime Deployment
 
 - One Environment
 - Multiple clouds
 - Switch clouds from primary to secondary
+- Adapt deployment order, use pause
 - Apply changes to secondary
 - Verify secondary
 - Switch primary/secondary
 - Apply changes 
 
+<!--- vertical -->
 
 ## Canary Deployment
 
@@ -124,6 +121,7 @@ Note:
 - Apply the changes to PROD env
 - Leverage DNS/LB to control traffic to Canary env
 
+<!--- vertical -->
 
 ## Blue Green Deployment
 
@@ -135,6 +133,7 @@ Note:
 - DNS/LB can be leveraged to control traffic
 - This minimizes change/release rollback significantly.
 
+<!--- vertical -->
 
 ## Questions? 
 

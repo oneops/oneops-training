@@ -2,6 +2,7 @@
 
 > Why use OneOps?
 
+<!--- vertical -->
 
 ## Baremetal or Normal VM
 
@@ -15,6 +16,7 @@ Note:
 - explain bare metal means OS right on the hardware
 - normal VM still too static on its own, often just like hardware 
 
+<!--- vertical -->
 
 ## Cloud to the Rescue
 
@@ -32,6 +34,7 @@ Note:
 - beyond the buzz around cloud
 - principles means you try to achieve it...
 
+<!--- vertical -->
 
 ## Five Essential Cloud Characteristics
 
@@ -44,6 +47,7 @@ Note:
 Note:
 - from NIST http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf
 
+<!--- vertical -->
 
 ## Three Cloud Service Delivery Methods
 
@@ -56,6 +60,7 @@ Note:
 - IaaS is to bare bones, but potentially necessary to run your own cloud
 - PaasS .. great but you want to be your own PaaS to avoid dependence on PaaS provider
 
+<!--- vertical -->
 
 ## Deployment Methods
 
@@ -65,6 +70,7 @@ Note:
 
 <em class="yellow">Only mixed is truly competitive and possible on a large scale</em><!-- .element: class="fragment" -->
 
+<!--- vertical -->
 
 ## Cloud Application Architecture
 
@@ -75,6 +81,7 @@ Note:
 - dedicated task for each node
 - each node can break down without taking out overall application
 
+<!--- vertical -->
 
 ## Cloud Application Architecture
 
@@ -87,6 +94,7 @@ Note:
 
 Learn more e.g. at [https://12factor.net/](https://12factor.net/)
 
+<!--- vertical -->
 
 ## Advantages
 
@@ -102,6 +110,7 @@ Note:
 - Example: Cut household costs over a month into less than a quarter.
   Imagine all the other things you can do!
 
+<!--- vertical -->
 
 ## Cloud Provider
 
@@ -114,6 +123,7 @@ Or your own datacenter and installation using
 - OpenStack
 - Apache Cloudstack
 
+<!--- vertical -->
 
 ## Which to Choose?
 
@@ -128,6 +138,7 @@ Note:
 - using multiple clouds is necessary but expensive
 - use cloud agnostic tools to reduce cost
 
+<!--- vertical -->
 
 ## OneOps
 
@@ -137,6 +148,7 @@ Abstracts your application from a specific cloud:
 
 > Design your application once and run and manage in any cloud.
 
+<!--- vertical -->
 
 ## Questions?
 

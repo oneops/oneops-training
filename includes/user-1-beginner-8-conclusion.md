@@ -2,6 +2,7 @@
 
 > And what is next...
 
+<!--- vertical -->
 
 ## OneOps
 
@@ -13,6 +14,7 @@ for all your
 
 <em class="yellow">Cloud Application Lifecycle Management</em>.
 
+<!--- vertical -->
 
 ## Advantages
 
@@ -22,6 +24,7 @@ for all your
 - Low effort management
 - Auto-repair, Auto-replace, ...
 
+<!--- vertical -->
 
 ## More Advantages
 
@@ -33,6 +36,7 @@ for all your
 
 <em class="yellow">Huge gains in efficiency and versatility!</em>
 
+<!--- vertical -->
 
 ## Now Use It
 
@@ -40,6 +44,7 @@ for all your
 - Or production
 - Learn advanced usage
 
+<!--- vertical -->
 
 ## Use It More
 
@@ -54,6 +59,7 @@ for all your
 
 <em class="yellow">Become an expert!</em>
 
+<!--- vertical -->
 
 ## Learn More
 
@@ -62,6 +68,7 @@ for all your
 - Video channel [on YouTube](https://www.youtube.com/channel/UCajgVCGqZ2M9RhULR8Q5Iww)
 - Source code at [http://github.com/oneops](http://github.com/oneops)
 
+<!--- vertical -->
 
 ## More Training
 
@@ -72,6 +79,7 @@ for all your
 Note: 
 planning and working on those
 
+<!--- vertical -->
 
 ## Thank You
 

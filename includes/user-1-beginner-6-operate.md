@@ -2,6 +2,7 @@
 
 > Running and maintaining your application
 
+<!--- vertical -->
 
 ## Inspecting Environments
 
@@ -19,6 +20,7 @@ After transition phase with _commit and deploy_
 Note:
 - Demo overview of enviroments in operation
 
+<!--- vertical -->
 
 ## Platforms and Components
 
@@ -29,6 +31,7 @@ Note:
 - Demo
 - Includes actions for components
 
+<!--- vertical -->
 
 ## Example: Compute Component
 
@@ -42,6 +45,7 @@ Note:
 Note:
 - Demo IP number, hostname and more
 
+<!--- vertical -->
 
 ## SSH into Compute
 
@@ -53,6 +57,7 @@ Note:
 Note:
 - Demo
 
+<!--- vertical -->
 
 ## Operations Recap
 
@@ -61,6 +66,7 @@ Note:
 - View configuration, metrics and logs.
 - Perform manual control actions.
 
+<!--- vertical -->
 
 ## Questions? 
 

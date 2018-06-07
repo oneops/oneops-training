@@ -2,6 +2,7 @@
 
 > OneOps and Other Tools
 
+<!--- vertical -->
 
 ## REST API
 
@@ -9,6 +10,7 @@
 - querying
 - advanced search
 
+<!--- vertical -->
 
 ## Boo
 
@@ -16,13 +18,14 @@ Commandline tool
 - provisioning 
 - configuration
 
+<!--- vertical -->
 
 ## Continuous Deployment
 
-- Jenkins plugin used in Looper
-- boo
-- Plugin for Concord workflow engine
+- Integration in Looper
+- boo and oneops plugin for Concord
 
+<!--- vertical -->
 
 ## Questions? 
 

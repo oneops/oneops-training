@@ -2,6 +2,7 @@
 
 > Define your cloud application
 
+<!--- vertical -->
 
 ## Assembly
  
@@ -12,6 +13,7 @@ Note:
 - give name, description, email, save, then back to slides
 - talk about examples like webapp, console applications, show some in list
 
+<!--- vertical -->
 
 ## Platform
 
@@ -24,6 +26,7 @@ Platforms define the parts of your assembly.
 - CustomLb
 - many more
 
+<!--- vertical -->
 
 ## Pack
 
@@ -41,6 +44,7 @@ Note:
 - Developers learn about _Pack Development_.
 - Demo: Add tomcat component from oneops pack source (= open source circuit)
 
+<!--- vertical -->
 
 ## Component
 
@@ -64,6 +68,7 @@ Note:
   - Set build version to NA
   - Change web app folder to /opt/tomcat8/webapps
 
+<!--- vertical -->
 
 ## Examine Design
 
@@ -79,6 +84,7 @@ Note:
 - Demo
 - All changes are version controlled.
 
+<!--- vertical -->
 
 ## Our Application
 
@@ -90,6 +96,7 @@ Note:
 - explain a bit and move on the variables
 - Ruby scripts
 
+<!--- vertical -->
 
 ## Variable Configuration
 
@@ -105,6 +112,7 @@ Note:
 - repository  pangaea_releases
 - version 6.0.2
 
+<!--- vertical -->
 
 ## Optional Components
 
@@ -116,6 +124,7 @@ A number of base components in every pack
 
 More later in advanced class.
 
+<!--- vertical -->
 
 ## And Finally
 
@@ -124,6 +133,7 @@ Review and Commit
 Note:
 - Demo with diff view
 
+<!--- vertical -->
 
 ## Design Recap
 
@@ -133,6 +143,7 @@ Note:
 
 <em class="yellow">All independent of target cloud!</em>
 
+<!--- vertical -->
 
 ## Questions? 
 

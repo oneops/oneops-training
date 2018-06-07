@@ -2,6 +2,7 @@
 
 > Moving towards advanced usage
 
+<!--- vertical -->
 
 ## User Interface Redux
 
@@ -12,6 +13,7 @@ Become more powerful and efficient with:
 - Search
 - Keyboard shortcuts
 
+<!--- vertical -->
 
 ## Navigation Bars
 
@@ -21,6 +23,7 @@ Become more powerful and efficient with:
 Note: 
 - Demo
 
+<!--- vertical -->
 
 ## Favorites
 
@@ -31,6 +34,7 @@ _Manage favorites_ across organizations.
 Note:
 - Demo
 
+<!--- vertical -->
 
 ## Search
 
@@ -47,6 +51,7 @@ Note:
 - Demo
 - Point out doc examples and video at [http://oneops.com/user/general/search](http://oneops.com/user/general/search)
 
+<!--- vertical -->
 
 ## Search Continued
 
@@ -60,6 +65,7 @@ Note:
 - Demo
 - also environment and org specific search in UI
 
+<!--- vertical -->
 
 ## Search Results
 
@@ -70,6 +76,7 @@ A list with
 
 Find entities and perform bulk actions!
 
+<!--- vertical -->
 
 ## Keyboard Shortcuts
 
@@ -82,6 +89,7 @@ Find entities and perform bulk actions!
 Note:
 - Demo
 
+<!--- vertical -->
 
 ##  Notifications
 
@@ -91,6 +99,7 @@ Note:
 Note:
 - Demo it
 
+<!--- vertical -->
 
 ## Lots More for Advanced Usage
 
@@ -103,6 +112,7 @@ Note:
 
 Join the advanced class to learn more.
 
+<!--- vertical -->
 
 ## Administration
 
@@ -112,12 +122,12 @@ Administrative user
 - Organizations
 - Teams
 - Notifications
-- API/CLI
 
 Note:
 - not part of this training really
 - just so you know about it.. 
 
+<!--- vertical -->
 
 ## OneOps is Open Source
 
@@ -129,6 +139,7 @@ All on [GitHub/oneops](http://github.com/oneops).
 
 <em class="yellow">Become a contributor! We would love for you to join us!</em>
 
+<!--- vertical -->
 
 ## Questions?
 

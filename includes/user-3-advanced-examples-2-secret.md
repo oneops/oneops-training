@@ -2,6 +2,7 @@
 
 > OneOps and Keywhiz
 
+<!--- vertical -->
 
 ## What are Secrets?
 
@@ -14,6 +15,7 @@ Anything that should not be public.
 - Java KeyStore files
 - ...
 
+<!--- vertical -->
 
 ## Practices to Avoid
 
@@ -29,6 +31,7 @@ Note:
 - breaches are worse
 - don't do it yourself, you will fail
 
+<!--- vertical -->
 
 ## Secret Management in OneOps
 
@@ -38,6 +41,7 @@ Note:
 - secrets client component <!-- .element: class="fragment" -->
 - Your code <!-- .element: class="fragment" -->
 
+<!--- vertical -->
 
 ## Keywhiz
 
@@ -45,6 +49,7 @@ Note:
 - Open source software from [Square](https://square.github.io/)
 - [https://square.github.io/keywhiz/](https://square.github.io/keywhiz/)
 
+<!--- vertical -->
 
 ## OneOps Secrets Proxy
 
@@ -57,6 +62,7 @@ Adapts OneOps concepts to Keywhiz storage
 Note: 
 https://github.com/oneops/secrets-proxy
 
+<!--- vertical -->
 
 ## OneOps Security Configuration
 
@@ -69,6 +75,7 @@ Via teams in OneOps
 Note:
 - Demo setup for assembly and org
 
+<!--- vertical -->
 
 ## OneOps Secrets CLI
 
@@ -83,6 +90,7 @@ Note:
 - Demo installing CLI
 - Show commands and help
 
+<!--- vertical -->
 
 ## Adding Secrets
 
@@ -96,6 +104,7 @@ Note:
 - Demo it!
 - application = org_assembly_env
 
+<!--- vertical -->
 
 ## Other Operations
 
@@ -110,6 +119,7 @@ Comprehensive secrets management:
 Note:
 - Demo a bunch via help and actual usage
 
+<!--- vertical -->
 
 ## Secrets Client Component
 
@@ -117,11 +127,12 @@ Note:
 - Available on all platforms
 - Syncs secrets onto computes
 - Exposes `/secrets` filesystem path
-- Secrets from Keywhiz via Secrets Proxy 
+- Secrets from Keywhiz
 
 Note:
 - sync every 30s
 
+<!--- vertical -->
 
 ## Adding to Your Platform
 
@@ -132,6 +143,7 @@ Note:
 Note:
 - Demo it 
 
+<!--- vertical -->
 
 ## Accessing Secrets
 
@@ -144,6 +156,7 @@ Note:
 - specific code snippets in [documentation](http://oneops.com/user/design/secrets-client-component.html)
 - show them
 
+<!--- vertical -->
 
 ## Tips and Tricks
 
@@ -154,11 +167,13 @@ Note:
 Note:
 - restart will depend on component used to run app
 
+<!--- vertical -->
 
 ## Conclusion
 
 Secure end-to-end management of your secrets.
 
+<!--- vertical -->
 
 ## Questions? 
 

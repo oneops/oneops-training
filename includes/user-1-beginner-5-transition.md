@@ -2,6 +2,7 @@
 
 > Preparing for launch
 
+<!--- vertical -->
 
 ## Environments
 
@@ -13,6 +14,7 @@ Defines your application runtime scenarios with regards to
 
 <em class="yellow">How and where to deploy and run.</em>
 
+<!--- vertical -->
 
 ## Creating Environments
 
@@ -27,6 +29,7 @@ Note:
 - multiple environments
 - multiple clouds per environment
 
+<!--- vertical -->
 
 ## Availability Mode
 
@@ -36,6 +39,7 @@ Note:
   - Create highly available services
   - Multiple computes for each platform
 
+<!--- vertical -->
 
 ## Clouds
 
@@ -45,6 +49,7 @@ Choose your cloud:
 - Latency
 - OS availability
 
+<!--- vertical -->
 
 ## Environment Details
 
@@ -56,6 +61,7 @@ Note:
 - Demo it
 - Explain locking of config parameters
 
+<!--- vertical -->
 
 ## Deployment
 
@@ -70,6 +76,7 @@ Note:
 - Demo design change and pull into environment
 - Demo commit and deploy, show diffs on deployment plan
 
+<!--- vertical -->
 
 ## Transition Recap
 
@@ -79,6 +86,7 @@ Note:
 - Any cloud provider
 - _Commit and Deploy_ to operation
 
+<!--- vertical -->
 
 ## Questions? 
 

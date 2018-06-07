@@ -2,6 +2,7 @@
 
 > Level 3 - Advanced Examples
 
+<!--- vertical -->
 
 ## Training Overview
 
@@ -10,6 +11,7 @@
 Note: 
 - More modules in future improvements of the course
 
+<!--- vertical -->
 
 ## Goals and Objectives
 
@@ -19,6 +21,7 @@ At the end of this class, you should: <!-- .element: class="fragment" -->
 - Provision secrets into your assembly <!-- .element: class="fragment" -->
 - Adapt your secret access <!-- .element: class="fragment" -->
 
+<!--- vertical -->
 
 ## Instructors
 
@@ -31,6 +34,7 @@ Note:
 - maybe show yourself via video for a bit
 - keep it short!
 
+<!--- vertical -->
 
 ## Course Mechanics
 
@@ -43,6 +47,8 @@ Note:
 - Remind people to mute their audio line
 - later longer session
 
+<!--- vertical -->
+
 ## Prerequisites
 
 You should have attended <!-- .element: class="fragment" -->
@@ -53,6 +59,7 @@ __OneOps User Training: Level 2 - Advanced,__ <!-- .element: class="fragment" --
 
 and pay attention! <!-- .element: class="fragment" -->
 
+<!--- vertical -->
 
 ## Planned Class Structure
 
@@ -60,6 +67,7 @@ and pay attention! <!-- .element: class="fragment" -->
 - Talk _theory_ only as needed
 - Emphasize demos over talk
 
+<!--- vertical -->
 
 ## Please Interrupt Me
 
@@ -67,6 +75,7 @@ and pay attention! <!-- .element: class="fragment" -->
 - Ask on chat
 - There is time for questions
 
+<!--- vertical -->
 
 ## Questions? 
 

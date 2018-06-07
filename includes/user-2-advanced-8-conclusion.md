@@ -2,6 +2,7 @@
 
 > And what is next...
 
+<!--- vertical -->
 
 ## Summary
 
@@ -12,6 +13,7 @@ As advanced user you,
 - use multiple environments,
 - and deploy releases to operation without downtime.
 
+<!--- vertical -->
 
 ## Next Step
 
@@ -26,6 +28,7 @@ As advanced user you,
   - logging
   - monitoring
 
+<!--- vertical -->
 
 ## Learn More
 
@@ -34,6 +37,7 @@ As advanced user you,
 - Video channel [on YouTube](https://www.youtube.com/channel/UCajgVCGqZ2M9RhULR8Q5Iww)
 - Source code at [http://github.com/oneops](http://github.com/oneops)
 
+<!--- vertical -->
 
 ## More Training
 
@@ -41,6 +45,7 @@ As advanced user you,
 - Expert user training
 - Admin and developer training
 
+<!--- vertical -->
 
 ## Thank You
 

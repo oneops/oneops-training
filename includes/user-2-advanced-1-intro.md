@@ -2,6 +2,7 @@
 
 > Level 2 - Advanced
 
+<!--- vertical -->
 
 ## Training Overview
 
@@ -9,6 +10,7 @@
 - Advanced environment usage in transition
 - Successfully releasing to and working with operation
 
+<!--- vertical -->
 
 ## Exclusions
 
@@ -16,6 +18,7 @@
 - Developing for OneOps <!-- .element: class="fragment" -->
 - Infrastructure behind and around OneOps usage <!-- .element: class="fragment" -->
 
+<!--- vertical -->
 
 ## Goals and Objectives
 
@@ -27,6 +30,7 @@ At the end of this class, you should: <!-- .element: class="fragment" -->
 - Manage design changes across various environments <!-- .element: class="fragment" -->
 - Release changes to operation without downtime <!-- .element: class="fragment" -->
 
+<!--- vertical -->
 
 ## Instructors
 
@@ -39,6 +43,7 @@ Note:
 - maybe show yourself via video for a bit
 - keep it short!
 
+<!--- vertical -->
 
 ## Course Mechanics
 
@@ -50,6 +55,7 @@ Note:
 Note:
 - Remind people to mute their audio line
 
+<!--- vertical -->
 
 ## Prerequisites
 
@@ -59,6 +65,7 @@ __OneOps User Training: Level 1 - Beginner,__ <!-- .element: class="fragment" --
 
 and pay attention! <!-- .element: class="fragment" -->
 
+<!--- vertical -->
 
 ## Planned Class Structure
 
@@ -66,6 +73,7 @@ and pay attention! <!-- .element: class="fragment" -->
 - Talk _theory_ only as needed
 - Emphasize demos over talk
 
+<!--- vertical -->
 
 ## Please Interrupt Me
 
@@ -73,6 +81,7 @@ and pay attention! <!-- .element: class="fragment" -->
 - Ask on chat
 - There is time for questions
 
+<!--- vertical -->
 
 ## Questions? 
 
