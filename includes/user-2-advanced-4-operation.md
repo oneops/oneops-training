@@ -29,7 +29,7 @@ Charts with
 - thresholds
 - heartbeat
 
-Note: 
+Note:f
 - Demo it
 
 <!--- vertical -->
@@ -49,7 +49,20 @@ Let's have a look!
 
 <!--- vertical -->
 
-## Replace a Compute
+## More Monitoring
+
+In real world, need to monitor all computes.
+
+__Telegraf component__
+
+- Uses light-weight [Telegraf](https://github.com/influxdata/telegraf)
+- Emits to Kafka-cluster
+- Visualized in dashboards
+- Altering based on trends
+
+<!--- vertical -->
+
+## Use Case Replace a Compute
 
 - flag for replacement
 - commit and deploy
