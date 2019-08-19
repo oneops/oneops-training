@@ -58,7 +58,8 @@ __Telegraf component__
 - Uses light-weight [Telegraf](https://github.com/influxdata/telegraf)
 - Emits to Kafka-cluster
 - Visualized in dashboards
-- Alternate deployment capacity based on data
+- Use with stress and performance test runs
+- Potentially change deployment capacity based on data
 
 <!--- vertical -->
 
